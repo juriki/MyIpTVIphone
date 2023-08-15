@@ -12,16 +12,18 @@ import AVFoundation
 class MtriUfileHandle : UIViewController{
     
     let fileName = "downloadedFile.txt"
+    let documentsUrl:URL =  FileManager.default.urls(for: .documentDirectory, in: .userDomainMask).first! as URL
     var ChanelDict: [String: String] = [:]
     var Cateroies: [String] = ["Favorite"]
     var ChanelSelctedDict: [String: String] = [:]
     
-    func ReadFileFromMemory()
+    
+
+    
+    func ReadFileFromMemory() -> Bool
     {
-        let documentsUrl:URL =  FileManager.default.urls(for: .documentDirectory, in: .userDomainMask).first! as URL
         let destinationFileUrl = documentsUrl.appendingPathComponent(fileName)
-        let test  =  destinationFileUrl.path
-        let myFile2 =  FileManager.default.contents(atPath: test)
+        _ =  FileManager.default.contents(atPath: String(destinationFileUrl.path))
         do {
                let text2 = try String(contentsOf: destinationFileUrl, encoding: .utf8)
             
@@ -33,7 +35,7 @@ class MtriUfileHandle : UIViewController{
                         var notUrl = false
                         var ChaneCategory = newtext[i]
                         ChaneCategory.removeFirst(7)
-                        guard let removeHttp = ChaneCategory.firstIndex(of: "h") else { return }
+                        guard let removeHttp = ChaneCategory.firstIndex(of: "h") else { return  false}
                         var category = ChaneCategory[..<removeHttp]
                         category.removeLast(1)
                         var ChanelName = newtext[i-1]
@@ -54,7 +56,6 @@ class MtriUfileHandle : UIViewController{
                             }
                             if(Cateroies.count == i+1 && match == false )
                             {
-                                print(Cateroies.count)
                                 Cateroies.append(String(category))
                             }
                         }
@@ -71,19 +72,19 @@ class MtriUfileHandle : UIViewController{
                         ChanelDict.updateValue(ChanelUrl, forKey: category + " || " + ChanelName)
                     }
                 }
+            return true
             }
            catch {print("Error of converitng file")}
+        return false
     }
 
+
     
-    
-    
-    func DownlondFromUrl(fileURL: String){
+    func DownlondFromUrl(myFileURL: String){
         // Create destination URL
-        let documentsUrl:URL =  FileManager.default.urls(for: .documentDirectory, in: .userDomainMask).first! as URL
         let destinationFileUrl = documentsUrl.appendingPathComponent(fileName)
         //Create URL to the source file you want to download
-        let fileURL = URL(string: "http://18a2fd3abc48.goodstreem.org/playlists/uplist/b079dc539247bf0e7b0783bafe67981f/playlist.m3u8")
+        let fileURL = URL(string: myFileURL)
         let sessionConfig = URLSessionConfiguration.default
         let session = URLSession(configuration: sessionConfig)
         let request = URLRequest(url:fileURL!)
@@ -108,13 +109,10 @@ class MtriUfileHandle : UIViewController{
     }
     
     
-    func getChanel(getByCategory: String)
+    func getChanel(getByCategory: String) -> Int
     {
-        let documentsUrl:URL =  FileManager.default.urls(for: .documentDirectory, in: .userDomainMask).first! as URL
         let destinationFileUrl = documentsUrl.appendingPathComponent(fileName)
-        let test  =  destinationFileUrl.path
-        let myFile =  FileManager.default.contents(atPath: test)
-
+        _ =  FileManager.default.contents(atPath: String(destinationFileUrl.path))
     do
         {
             let text = try String(contentsOf: destinationFileUrl, encoding: .utf8)
@@ -125,7 +123,7 @@ class MtriUfileHandle : UIViewController{
                     var notUrl = false
                     var ChaneCategory = newtext[i]
                     ChaneCategory.removeFirst(7)
-                    guard let removeHttp = ChaneCategory.firstIndex(of: "h") else { return }
+                    guard let removeHttp = ChaneCategory.firstIndex(of: "h") else { return 0 }
                     var category = ChaneCategory[..<removeHttp]
                     category.removeLast(1)
                     if(category == getByCategory )
@@ -138,7 +136,7 @@ class MtriUfileHandle : UIViewController{
                         ChanelName.removeLast(1)
                         let vowels: Set<Character> = ["\"", "\r", ","]
                         ChanelName.removeAll(where: { vowels.contains($0) })
-                        
+                
                         while(notUrl == false){
                             if(ChanelUrl.prefix(4) != "http")
                             {
@@ -153,20 +151,32 @@ class MtriUfileHandle : UIViewController{
                     }
                     
                 }
-                
             }
 
         }catch
         {
             print("Cannot read File")
+            return 0
         }
-        sortDict()
+        return ChanelSelctedDict.count
     }
     
     
-    func sortDict()
+    
+    func deleteFileFromMemory()
     {
-        ChanelSelctedDict.sorted(by: { $0.0 < $1.0 })
+        let destinationFileUrl = documentsUrl.appendingPathComponent(fileName)
+        do {
+            try FileManager.default.removeItem(at: destinationFileUrl)
+            print("Successfully deleted file!")
+        } catch {
+            print("Error deleting file: \(error)")
+        }
     }
+    
+
     
 }
+
+
+//   "http://18a2fd3abc48.goodstreem.org/playlists/uplist/b079dc539247bf0e7b0783bafe67981f/playlist.m3u8"

@@ -14,10 +14,15 @@ class CollectionViewController: UICollectionViewController  {
     var dataToDeleteAfgerTest: [String] = []
     var chanelDelagator = ""
     let fileHandler = MtriUfileHandle()
-    
+    let favoriteFile = FavoriteList()
+    var channelsTocheck: Array<(String,String,String)> = Array()
+    let favoritList = FavoriteList()
+
+
     
     override func viewDidLoad() {
         fileHandler.ReadFileFromMemory()
+        channelsTocheck = favoritList.ReadFileToFavorite()
         dataToDeleteAfgerTest = fileHandler.Cateroies
         super.viewDidLoad()
 
@@ -32,7 +37,6 @@ class CollectionViewController: UICollectionViewController  {
     override func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
         
         var cell = UICollectionViewCell()
-        
         if let ChanelCell = collectionView.dequeueReusableCell(withReuseIdentifier: "Cell", for: indexPath) as? CollectionViewCell
         {
             ChanelCell.configure(with: dataToDeleteAfgerTest[indexPath.row])
@@ -45,12 +49,16 @@ class CollectionViewController: UICollectionViewController  {
     
     
     override func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
-        print(dataToDeleteAfgerTest[indexPath.row])
-        fileHandler.getChanel(getByCategory: dataToDeleteAfgerTest[indexPath.row])
-        let vc = self.storyboard?.instantiateViewController(withIdentifier: "CollectionViewControllerChanels") as! CollectionViewControllerChanels
-        vc.myChanelCategory = dataToDeleteAfgerTest[indexPath.row]
-        self.navigationController?.pushViewController(vc, animated: true)
+//        print(dataToDeleteAfgerTest[indexPath.row])
 
+            let vc = self.storyboard?.instantiateViewController(withIdentifier: "CollectionViewControllerChanels") as! CollectionViewControllerChanels
+            vc.myChanelCategory = dataToDeleteAfgerTest[indexPath.row]
+            self.navigationController?.pushViewController(vc, animated: true)
+            
+        
     }
+    
+    
+    
     
 }

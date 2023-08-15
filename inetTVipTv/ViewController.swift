@@ -13,10 +13,9 @@ import AVKit
 
 class ViewController: UIViewController {
 
+    @IBOutlet weak var Input: UITextField!
     @IBOutlet weak var StacviewUp: UIStackView!
     @IBOutlet weak var StackView: UIStackView!
-    @IBOutlet weak var russia1Button: UIButton!
-    @IBOutlet weak var NtvButton: UIButton!
     @IBOutlet weak var ButtonFirst: UIButton!
     let player = Player()
     let fileHandler = MtriUfileHandle()
@@ -25,51 +24,29 @@ class ViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
-    }
-
-
-    @IBAction func PlayButton(_ sender: Any)
-    {
-        
-//        player.playback()
-        let videoURL = URL(string: "http://qrjvck10.socminlt.com/iptv/UV8MN3KV3YZ6KW/205/index.m3u8")
-        let player = AVPlayer(url: videoURL!)
-        let playerViewController = AVPlayerViewController()
-        playerViewController.player = player
-        self.present(playerViewController, animated: true) {
-            playerViewController.player!.play()
+        if( fileHandler.ReadFileFromMemory())
+        {
+            let vc = self.storyboard?.instantiateViewController(withIdentifier: "CollectionViewController") as! CollectionViewController
+            self.navigationController?.pushViewController(vc, animated: true)
         }
- 
     }
+
         
     
     @IBAction func FirstChanelButton(_ sender: Any) {
         
-        let videoURL = URL(string: "http://qrjvck10.socminlt.com/iptv/UV8MN3KV3YZ6KW/204/index.m3u8")
-        let player = AVPlayer(url: videoURL!)
-        let playerViewController = AVPlayerViewController()
-        playerViewController.player = player
-        self.present(playerViewController, animated: true) {
-            playerViewController.player!.play()
+        
+        if(Input.text!.count >= 20)
+        {
+            fileHandler.deleteFileFromMemory()
+            fileHandler.DownlondFromUrl(myFileURL: Input.text!)
+            let vc = self.storyboard?.instantiateViewController(withIdentifier: "CollectionViewController") as! CollectionViewController
+            self.navigationController?.pushViewController(vc, animated: true)
         }
+        let vc = self.storyboard?.instantiateViewController(withIdentifier: "CollectionViewController") as! CollectionViewController
+        self.navigationController?.pushViewController(vc, animated: true)
+        
     }
-    
-    
-    
-    @IBAction func ntvButton(_ sender: Any) {
-//        StackView.addArrangedSubview(Firs)
-        let videoURL = URL(string: "http://qrjvck10.socminlt.com/iptv/UV8MN3KV3YZ6KW/213/index.m3u8")
-        let player = AVPlayer(url: videoURL!)
-        let playerViewController = AVPlayerViewController()
-        playerViewController.player = player
-        self.present(playerViewController, animated: true) {
-            playerViewController.player!.play()
-        }
-    }
-
-    
-    
  
 }
 

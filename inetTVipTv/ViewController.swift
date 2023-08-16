@@ -13,6 +13,7 @@ import AVKit
 
 class ViewController: UIViewController {
 
+    @IBOutlet weak var HomeTVbutton: UIBarButtonItem!
     @IBOutlet weak var Input: UITextField!
     @IBOutlet weak var StacviewUp: UIStackView!
     @IBOutlet weak var StackView: UIStackView!
@@ -24,10 +25,15 @@ class ViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        navigationItem.hidesBackButton = true
+        if(!fileHandler.ReadFileFromMemory())
+        {
+            HomeTVbutton.isHidden = true
+        }
         if( fileHandler.ReadFileFromMemory())
         {
             let vc = self.storyboard?.instantiateViewController(withIdentifier: "CollectionViewController") as! CollectionViewController
-            self.navigationController?.pushViewController(vc, animated: true)
+            self.navigationController?.pushViewController(vc, animated: false)
         }
     }
 

@@ -14,8 +14,8 @@
             filePath = "inetTVipTv/ViewController.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "48"
-            endingLineNumber = "48"
+            startingLineNumber = "54"
+            endingLineNumber = "54"
             landmarkName = "FirstChanelButton(_:)"
             landmarkType = "7">
             <Locations>
@@ -108,8 +108,8 @@
             filePath = "inetTVipTv/ViewController.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "42"
-            endingLineNumber = "42"
+            startingLineNumber = "48"
+            endingLineNumber = "48"
             landmarkName = "FirstChanelButton(_:)"
             landmarkType = "7">
             <Locations>
@@ -599,6 +599,165 @@
                   startingLineNumber = "30"
                   endingLineNumber = "30"
                   offsetFromSymbolStart = "1245">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "156990F8-20FC-47FB-82EA-DDC1FC0AE51A"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "inetTVipTv/ViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "27"
+            endingLineNumber = "27"
+            landmarkName = "viewDidLoad()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "156990F8-20FC-47FB-82EA-DDC1FC0AE51A - 5be6495d78417684"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "inetTVipTv.ViewController.viewDidLoad() -&gt; ()"
+                  moduleName = "inetTVipTv"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Volumes/Xcode%203/inetTVipTv/inetTVipTv/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "26"
+                  endingLineNumber = "26"
+                  offsetFromSymbolStart = "24">
+               </Location>
+               <Location
+                  uuid = "156990F8-20FC-47FB-82EA-DDC1FC0AE51A - 5be6495d78417684"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "inetTVipTv.ViewController.viewDidLoad() -&gt; ()"
+                  moduleName = "inetTVipTv"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Volumes/Xcode%203/inetTVipTv/inetTVipTv/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "26"
+                  endingLineNumber = "26"
+                  offsetFromSymbolStart = "53">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "6FABEF5A-A83D-4ABA-81D8-4D70EACBEDDF"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "inetTVipTv/AnimationViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "57"
+            endingLineNumber = "57"
+            landmarkName = "animate()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "6FABEF5A-A83D-4ABA-81D8-4D70EACBEDDF - d900c344988f6113"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 @Swift.MainActor () -&gt; () in closure #3 (Swift.Bool) -&gt; () in inetTVipTv.AnimationViewController.animate() -&gt; ()"
+                  moduleName = "inetTVipTv"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Volumes/Xcode%203/inetTVipTv/inetTVipTv/AnimationViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "57"
+                  endingLineNumber = "57"
+                  offsetFromSymbolStart = "52">
+               </Location>
+               <Location
+                  uuid = "6FABEF5A-A83D-4ABA-81D8-4D70EACBEDDF - d900c344988f6113"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 @Swift.MainActor () -&gt; () in closure #3 (Swift.Bool) -&gt; () in inetTVipTv.AnimationViewController.animate() -&gt; ()"
+                  moduleName = "inetTVipTv"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Volumes/Xcode%203/inetTVipTv/inetTVipTv/AnimationViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "57"
+                  endingLineNumber = "57"
+                  offsetFromSymbolStart = "136">
+               </Location>
+               <Location
+                  uuid = "6FABEF5A-A83D-4ABA-81D8-4D70EACBEDDF - d900c344988f6113"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 @Swift.MainActor () -&gt; () in closure #3 (Swift.Bool) -&gt; () in inetTVipTv.AnimationViewController.animate() -&gt; ()"
+                  moduleName = "inetTVipTv"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Volumes/Xcode%203/inetTVipTv/inetTVipTv/AnimationViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "57"
+                  endingLineNumber = "57"
+                  offsetFromSymbolStart = "284">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "7EF81D28-D456-4FE6-877B-1157C696F3D2"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "inetTVipTv/ViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "33"
+            endingLineNumber = "33"
+            landmarkName = "viewDidLoad()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "7EF81D28-D456-4FE6-877B-1157C696F3D2 - 5be6495d7841779d"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "inetTVipTv.ViewController.viewDidLoad() -&gt; ()"
+                  moduleName = "inetTVipTv"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Volumes/Xcode%203/inetTVipTv/inetTVipTv/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "33"
+                  endingLineNumber = "33"
+                  offsetFromSymbolStart = "605">
+               </Location>
+               <Location
+                  uuid = "7EF81D28-D456-4FE6-877B-1157C696F3D2 - 5be6495d7841779d"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "inetTVipTv.ViewController.viewDidLoad() -&gt; ()"
+                  moduleName = "inetTVipTv"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Volumes/Xcode%203/inetTVipTv/inetTVipTv/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "33"
+                  endingLineNumber = "33"
+                  offsetFromSymbolStart = "492">
                </Location>
             </Locations>
          </BreakpointContent>

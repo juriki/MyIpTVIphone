@@ -16,11 +16,15 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="tv2" translatesAutoresizingMaskIntoConstraints="NO" id="eS4-uZ-lbx">
-                                <rect key="frame" x="0.0" y="0.0" width="393" height="818"/>
+                                <rect key="frame" x="121.66666666666669" y="326" width="150" height="200"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="200" id="EU0-Nd-Bdf"/>
+                                    <constraint firstAttribute="width" constant="150" id="sOO-fH-Nxo"/>
+                                </constraints>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="My Ip TV" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Wuf-DI-Yl4">
-                                <rect key="frame" x="16" y="358" width="361" height="62"/>
+                                <rect key="frame" x="16" y="666.66666666666663" width="361" height="51.333333333333371"/>
                                 <fontDescription key="fontDescription" type="system" weight="black" pointSize="43"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -30,15 +34,12 @@
                         <color key="backgroundColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
-                            <constraint firstItem="eS4-uZ-lbx" firstAttribute="bottom" secondItem="Bcu-3y-fUS" secondAttribute="bottom" id="787-yn-Jt8"/>
-                            <constraint firstItem="Bcu-3y-fUS" firstAttribute="trailing" secondItem="Wuf-DI-Yl4" secondAttribute="trailing" constant="16" id="7hy-wb-iYb"/>
-                            <constraint firstItem="Bcu-3y-fUS" firstAttribute="bottom" secondItem="Wuf-DI-Yl4" secondAttribute="bottom" constant="398" id="CUS-Qc-Cea"/>
-                            <constraint firstItem="Wuf-DI-Yl4" firstAttribute="top" secondItem="Bcu-3y-fUS" secondAttribute="top" constant="299" id="Ix7-Gb-nvN"/>
-                            <constraint firstItem="eS4-uZ-lbx" firstAttribute="leading" secondItem="Bcu-3y-fUS" secondAttribute="leading" id="KA7-QD-cFo"/>
-                            <constraint firstItem="Wuf-DI-Yl4" firstAttribute="leading" secondItem="Bcu-3y-fUS" secondAttribute="leading" constant="16" id="R0K-dC-KBu"/>
-                            <constraint firstItem="eS4-uZ-lbx" firstAttribute="top" secondItem="Ze5-6b-2t3" secondAttribute="top" id="p9h-qw-5yt"/>
-                            <constraint firstItem="Wuf-DI-Yl4" firstAttribute="leading" secondItem="Bcu-3y-fUS" secondAttribute="leading" constant="16" id="u9b-Bl-2xR"/>
-                            <constraint firstAttribute="trailing" secondItem="eS4-uZ-lbx" secondAttribute="trailing" id="uqe-bw-zHa"/>
+                            <constraint firstItem="Bcu-3y-fUS" firstAttribute="trailing" secondItem="Wuf-DI-Yl4" secondAttribute="trailing" constant="16" id="Arc-Mp-tgH"/>
+                            <constraint firstItem="Wuf-DI-Yl4" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="I4I-Nh-2dZ"/>
+                            <constraint firstItem="eS4-uZ-lbx" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="LYt-Fl-ZgB"/>
+                            <constraint firstItem="Bcu-3y-fUS" firstAttribute="bottom" secondItem="Wuf-DI-Yl4" secondAttribute="bottom" constant="100" id="jJH-AS-o9S"/>
+                            <constraint firstItem="Wuf-DI-Yl4" firstAttribute="leading" secondItem="Bcu-3y-fUS" secondAttribute="leading" constant="16" id="kLG-9Y-rdU"/>
+                            <constraint firstItem="eS4-uZ-lbx" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" id="qux-dN-nG4"/>
                         </constraints>
                     </view>
                 </viewController>

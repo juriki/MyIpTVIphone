@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="EFh-HG-bL1">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="oJH-6B-xwu">
     <device id="retina6_12" orientation="portrait" appearance="light"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21679"/>
@@ -287,11 +287,53 @@
             </objects>
             <point key="canvasLocation" x="29.770992366412212" y="419.71830985915494"/>
         </scene>
+        <!--Animation View Controller-->
+        <scene sceneID="dVP-xv-yty">
+            <objects>
+                <viewController id="oJH-6B-xwu" customClass="AnimationViewController" customModule="inetTVipTv" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="3Vo-ZS-Sz4">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="tv2" translatesAutoresizingMaskIntoConstraints="NO" id="hkN-N8-ga2">
+                                <rect key="frame" x="121.66666666666669" y="326" width="150" height="200"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="150" id="5VI-uj-yjb"/>
+                                    <constraint firstAttribute="height" constant="200" id="oFX-ty-Blt"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="My ip TV" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7w8-7B-bgX">
+                                <rect key="frame" x="16" y="666.66666666666663" width="361" height="51.333333333333371"/>
+                                <fontDescription key="fontDescription" type="system" weight="black" pointSize="43"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="22k-bM-VXM"/>
+                        <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="hkN-N8-ga2" firstAttribute="centerX" secondItem="3Vo-ZS-Sz4" secondAttribute="centerX" id="MZS-oO-Msz"/>
+                            <constraint firstItem="hkN-N8-ga2" firstAttribute="centerY" secondItem="3Vo-ZS-Sz4" secondAttribute="centerY" id="SYq-yz-lcM"/>
+                            <constraint firstItem="22k-bM-VXM" firstAttribute="bottom" secondItem="7w8-7B-bgX" secondAttribute="bottom" constant="100" id="dXb-hg-Gys"/>
+                            <constraint firstItem="7w8-7B-bgX" firstAttribute="leading" secondItem="22k-bM-VXM" secondAttribute="leading" constant="16" id="etf-Hb-Taj"/>
+                            <constraint firstItem="22k-bM-VXM" firstAttribute="trailing" secondItem="7w8-7B-bgX" secondAttribute="trailing" constant="16" id="r8C-Ov-1BI"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="animationImage" destination="hkN-N8-ga2" id="ywL-ao-7Ju"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="b4L-PR-0cl" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="30" y="1128"/>
+        </scene>
     </scenes>
     <resources>
         <image name="heart" catalog="system" width="128" height="107"/>
         <image name="logtv2" width="4000" height="4000"/>
         <image name="rain2" width="1224" height="2305"/>
+        <image name="tv2" width="2000" height="1472"/>
         <image name="videoprojector" catalog="system" width="128" height="60"/>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>

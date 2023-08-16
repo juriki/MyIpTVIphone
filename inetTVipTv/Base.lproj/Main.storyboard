@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="EFh-HG-bL1">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="0Qr-IY-Cjv">
     <device id="retina6_12" orientation="portrait" appearance="light"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21679"/>
@@ -80,7 +80,7 @@
                 </collectionViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ggd-Il-Q48" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1835.8778625954199" y="419.71830985915494"/>
+            <point key="canvasLocation" x="4538.1679389312976" y="419.71830985915494"/>
         </scene>
         <!--Channels-->
         <scene sceneID="Dn6-S7-dRS">
@@ -183,12 +183,12 @@
                 </collectionViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="qfD-UB-NHA" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2774.8091603053435" y="419.71830985915494"/>
+            <point key="canvasLocation" x="5448.0916030534345" y="419.71830985915494"/>
         </scene>
-        <!--View Controller-->
+        <!--Home-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="inetTVipTv" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController restorationIdentifier="ViewController" storyboardIdentifier="ViewController" id="BYZ-38-t0r" customClass="ViewController" customModule="inetTVipTv" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -236,15 +236,16 @@
                             <constraint firstItem="qzr-ag-Abx" firstAttribute="top" relation="greaterThanOrEqual" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="45" id="zI5-Hc-rxR"/>
                         </constraints>
                     </view>
-                    <navigationItem key="navigationItem" id="uFL-Zu-ZBK">
+                    <navigationItem key="navigationItem" title="Home" id="uFL-Zu-ZBK">
                         <barButtonItem key="rightBarButtonItem" title="Item" image="videoprojector" catalog="system" id="C3S-Cr-MpE">
                             <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                             <connections>
-                                <segue destination="hjl-Pi-yGX" kind="show" id="ybP-SO-ElS"/>
+                                <segue destination="hjl-Pi-yGX" kind="show" id="d8q-ZS-v12"/>
                             </connections>
                         </barButtonItem>
                     </navigationItem>
                     <connections>
+                        <outlet property="HomeTVbutton" destination="C3S-Cr-MpE" id="VIP-d5-66V"/>
                         <outlet property="Input" destination="qzr-ag-Abx" id="n1W-sc-0x6"/>
                     </connections>
                 </viewController>
@@ -256,36 +257,65 @@
                     <buttonConfiguration key="configuration" style="filled" title="Первый"/>
                 </button>
             </objects>
-            <point key="canvasLocation" x="956.48854961832058" y="419.71830985915494"/>
+            <point key="canvasLocation" x="3625.1908396946565" y="419.71830985915494"/>
+        </scene>
+        <!--Animation View Controller-->
+        <scene sceneID="dVP-xv-yty">
+            <objects>
+                <viewController id="oJH-6B-xwu" customClass="AnimationViewController" customModule="inetTVipTv" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="3Vo-ZS-Sz4">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="rain2" translatesAutoresizingMaskIntoConstraints="NO" id="YOG-5H-p9h">
+                                <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="My ip TV" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7w8-7B-bgX">
+                                <rect key="frame" x="16" y="681.66666666666663" width="361" height="51.333333333333371"/>
+                                <fontDescription key="fontDescription" type="system" weight="black" pointSize="43"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="22k-bM-VXM"/>
+                        <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="YOG-5H-p9h" firstAttribute="leading" secondItem="22k-bM-VXM" secondAttribute="leading" id="0Hy-eS-qsF"/>
+                            <constraint firstAttribute="bottom" secondItem="YOG-5H-p9h" secondAttribute="bottom" id="5Hn-Oc-ymf"/>
+                            <constraint firstItem="YOG-5H-p9h" firstAttribute="top" secondItem="3Vo-ZS-Sz4" secondAttribute="top" id="ASj-3m-8yo"/>
+                            <constraint firstAttribute="bottomMargin" secondItem="YOG-5H-p9h" secondAttribute="bottom" id="JuC-cp-6aq"/>
+                            <constraint firstItem="22k-bM-VXM" firstAttribute="trailing" secondItem="YOG-5H-p9h" secondAttribute="trailing" id="NX9-hX-0DJ"/>
+                            <constraint firstItem="22k-bM-VXM" firstAttribute="bottom" secondItem="7w8-7B-bgX" secondAttribute="bottom" constant="85" id="aw3-AO-5kT"/>
+                            <constraint firstItem="7w8-7B-bgX" firstAttribute="leading" secondItem="22k-bM-VXM" secondAttribute="leading" constant="16" id="etf-Hb-Taj"/>
+                            <constraint firstItem="22k-bM-VXM" firstAttribute="trailing" secondItem="7w8-7B-bgX" secondAttribute="trailing" constant="16" id="r8C-Ov-1BI"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="hzy-TL-w5G"/>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="show" id="Dzo-Qt-rUQ"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="b4L-PR-0cl" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2576.3358778625952" y="419.71830985915494"/>
         </scene>
         <!--Navigation Controller-->
-        <scene sceneID="qHu-Tq-HmQ">
+        <scene sceneID="fL6-dH-cTb">
             <objects>
-                <navigationController id="EFh-HG-bL1" sceneMemberID="viewController">
-                    <extendedEdge key="edgesForExtendedLayout" top="YES"/>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="0Qr-IY-Cjv" sceneMemberID="viewController">
                     <toolbarItems/>
-                    <simulatedNavigationBarMetrics key="simulatedTopBarMetrics" barStyle="black" prompted="NO"/>
-                    <splitViewMasterSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" barStyle="black" id="Gpi-gQ-Rhs">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="FTm-Y9-3xv">
                         <rect key="frame" x="0.0" y="59" width="393" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
-                        <color key="barTintColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                        <textAttributes key="titleTextAttributes">
-                            <fontDescription key="fontDescription" name="TimesNewRomanPS-BoldMT" family="Times New Roman" pointSize="22"/>
-                            <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                        </textAttributes>
                     </navigationBar>
                     <nil name="viewControllers"/>
-                    <toolbar key="toolbar" opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="IeW-jz-FTt">
-                        <autoresizingMask key="autoresizingMask"/>
-                    </toolbar>
                     <connections>
-                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="va1-b8-Vo7"/>
+                        <segue destination="oJH-6B-xwu" kind="relationship" relationship="rootViewController" id="Bkq-7T-Gyk"/>
                     </connections>
                 </navigationController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="0tF-QM-kEd" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="szb-Dv-Kv0" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="29.770992366412212" y="419.71830985915494"/>
+            <point key="canvasLocation" x="1649.6183206106869" y="419.71830985915494"/>
         </scene>
     </scenes>
     <resources>

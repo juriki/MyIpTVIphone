@@ -12,7 +12,7 @@ import AVKit
 
 private let reuseIdentifier = "Cell"
 
-class CollectionViewControllerChanels: UICollectionViewController {
+class CollectionViewControllerChanels: UICollectionViewController, UISearchResultsUpdating {
     
     var chanelList: [String: String] = [:]
     var test: [String] = ["TESt", "EST"]
@@ -21,10 +21,19 @@ class CollectionViewControllerChanels: UICollectionViewController {
     var chanelNumber = 1
     var sortedDict: [String: String] = [:]
     var sorted: [(key: String, value: String)] = []
+    var originalList: [(key: String, value: String)] = []
     let favoriteFile = FavoriteList()
+    var searshCheck = false
 
     
     override func viewDidLoad() {
+        self.navigationController?.isNavigationBarHidden = false
+        navigationController?.navigationItem.largeTitleDisplayMode = .always
+        navigationController?.navigationBar.barTintColor = .link
+        let search = UISearchController(searchResultsController: nil)
+        search.searchResultsUpdater = self
+        self.navigationItem.searchController = search
+        
         if(myChanelCategory == "Favorite")
         {
             sorted = IsFavorite()
@@ -35,6 +44,7 @@ class CollectionViewControllerChanels: UICollectionViewController {
         }
 
         navigationItem.title = myChanelCategory.capitalized
+        originalList = sorted
         super.viewDidLoad()
 
     }
@@ -46,8 +56,9 @@ class CollectionViewControllerChanels: UICollectionViewController {
 
 
     override func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
-        
         var cell = UICollectionViewCell()
+        
+        
         if let ChanelCell = collectionView.dequeueReusableCell(withReuseIdentifier: "Cell1", for: indexPath) as? CollectionViewCellChanel
         {
 
@@ -107,6 +118,30 @@ class CollectionViewControllerChanels: UICollectionViewController {
         funcChanelList.sort(by: <)
         return funcChanelList
     }
+    
+    
+    @objc(updateSearchResultsForSearchController:) func updateSearchResults(for searchController: UISearchController) {
+        
+        let searchString = searchController.searchBar.text
+        
+    
+        
+        if searchString!.count >= 3{
+            sorted.removeAll()
+            originalList.forEach { (chanelName, chanelUrl) in
+                if chanelName.prefix(searchString!.count).lowercased() == searchString?.lowercased()
+                {
+                    sorted.append((key: chanelName, value: chanelUrl))
+                }
+            }
+            collectionView.reloadData()
+        }else
+        {
+            sorted = originalList
+            collectionView.reloadData()
+        }
+    }
+
 
 }
 

@@ -16,11 +16,13 @@ class CollectionViewCellChanel: UICollectionViewCell {
     @IBOutlet weak var chanelCount: UILabel!
     let fileHandler = MtriUfileHandle()
     let favoritList = FavoriteList()
+    let collectionView = CollectionViewController()
     var ChanelUrl = ""
     var like: Bool = false
     var channelsTocheck: Array<(String,String,String)> = Array()
     var channelsToDelte: Array<(String,String,String)> = Array()
     var myChanellNow = ""
+    
 
     
     var chanelcount = 0
@@ -41,9 +43,9 @@ class CollectionViewCellChanel: UICollectionViewCell {
         }
         
             ChanelUrl = value
-            cell.layer.masksToBounds = true
-            cell.layer.cornerRadius = 4.5
-        cell.layer.borderWidth = 1.3
+//            cell.layer.masksToBounds = true
+//            cell.layer.cornerRadius = 4.5
+//        cell.layer.borderWidth = 1.3
             PlayChannel.text = chanelName
         }
         
@@ -66,7 +68,9 @@ class CollectionViewCellChanel: UICollectionViewCell {
             favoritList.CreateNewFile()
             channelsToDelte.forEach { (Chanel, urli, bool) in
                 if Chanel != myChanellNow
+                    
                 {
+   
                     favoritList.appendToFile(channel: Chanel, chanelUrl: urli)
 //                    favoritList.ReadFileToFavorite()
                 }

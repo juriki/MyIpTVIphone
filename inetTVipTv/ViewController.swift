@@ -13,7 +13,7 @@ import AVKit
 
 class ViewController: UIViewController {
 
-    @IBOutlet weak var HomeTVbutton: UIBarButtonItem!
+    @IBOutlet weak var TVBUTTON: UIBarButtonItem!
     @IBOutlet weak var Input: UITextField!
     @IBOutlet weak var StacviewUp: UIStackView!
     @IBOutlet weak var StackView: UIStackView!
@@ -21,15 +21,12 @@ class ViewController: UIViewController {
     let player = Player()
     let fileHandler = MtriUfileHandle()
 
-
+    @IBOutlet weak var testButton: UIButton!
+    
     
     override func viewDidLoad() {
         super.viewDidLoad()
         navigationItem.hidesBackButton = true
-        if(!fileHandler.ReadFileFromMemory())
-        {
-            HomeTVbutton.isHidden = true
-        }
         if( fileHandler.ReadFileFromMemory())
         {
             let vc = self.storyboard?.instantiateViewController(withIdentifier: "CollectionViewController") as! CollectionViewController
@@ -53,6 +50,25 @@ class ViewController: UIViewController {
         self.navigationController?.pushViewController(vc, animated: true)
         
     }
+    
+    
+    @IBAction func testButtonFuncktion(_ sender: Any) {
+
+        
+        let adress = "http://213.226.69.162/iptv/UV8MN3KV3YZ6KW/12191/1692558480000.ts?md5=agbLlekFImk613byHIEmWw"
+        
+        let videoURL = URL(string: adress)
+        
+        let player = AVPlayer(url: videoURL!)
+        let playerViewController = AVPlayerViewController()
+        playerViewController.player = player
+        self.present(playerViewController, animated: true) {
+            print(AVPlayer.Status.failed)
+                playerViewController.player!.play()
+            
+            }
+    }
+    
  
 }
 

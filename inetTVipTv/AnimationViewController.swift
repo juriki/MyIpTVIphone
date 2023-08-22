@@ -22,6 +22,7 @@ class AnimationViewController: UIViewController {
     }()
     
     override func viewDidLoad() {
+        self.navigationController?.isNavigationBarHidden = true
         super.viewDidLoad()
         view.addSubview(animationImage)
     }

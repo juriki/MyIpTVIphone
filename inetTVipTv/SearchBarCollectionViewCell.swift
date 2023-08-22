@@ -9,10 +9,13 @@ import UIKit
 
 class SearchBarCollectionViewCell: UICollectionViewCell {
     
-    func configureSearch(with chanelName: String)
+    @IBOutlet weak var Label: UILabel!
+    
+    
+    func configureSearch(with TEST: String)
     {
        
-        
+            print(TEST)
         return
         
     }

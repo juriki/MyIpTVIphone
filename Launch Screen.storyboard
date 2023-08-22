@@ -27,8 +27,8 @@
                                 </constraints>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="My ip TV" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Wuf-DI-Yl4">
-                                <rect key="frame" x="16" y="681.66666666666663" width="361" height="51.333333333333371"/>
-                                <fontDescription key="fontDescription" type="system" weight="black" pointSize="43"/>
+                                <rect key="frame" x="16" y="685.33333333333337" width="361" height="47.666666666666629"/>
+                                <fontDescription key="fontDescription" name="TimesNewRomanPS-BoldMT" family="Times New Roman" pointSize="43"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>

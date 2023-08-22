@@ -18,16 +18,21 @@ class CollectionViewController: UICollectionViewController  {
     var channelsTocheck: Array<(String,String,String)> = Array()
     let favoritList = FavoriteList()
 
+    
 
     
     override func viewDidLoad() {
+        self.navigationController?.isNavigationBarHidden = false
         fileHandler.ReadFileFromMemory()
         channelsTocheck = favoritList.ReadFileToFavorite()
         dataToDeleteAfgerTest = fileHandler.Cateroies
         super.viewDidLoad()
-
     }
 
+    func updateMyView(){
+          viewWillAppear(true)
+        
+    }
     
     override func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
         return dataToDeleteAfgerTest.count
@@ -42,10 +47,13 @@ class CollectionViewController: UICollectionViewController  {
             ChanelCell.configure(with: dataToDeleteAfgerTest[indexPath.row])
             
             cell = ChanelCell
+            viewWillAppear(true)
         }
         
         return cell
     }
+    
+    
     
     
     override func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
@@ -58,7 +66,10 @@ class CollectionViewController: UICollectionViewController  {
         
     }
     
-    
-    
+//
+//    @IBAction func test(_ sender: Any) {
+//        print("Hello")
+//        collectionView.reloadData()
+//    }
     
 }

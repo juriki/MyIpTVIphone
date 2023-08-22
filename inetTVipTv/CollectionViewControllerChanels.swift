@@ -126,10 +126,10 @@ class CollectionViewControllerChanels: UICollectionViewController, UISearchResul
         
     
         
-        if searchString!.count >= 3{
+        if searchString!.count >= 1{
             sorted.removeAll()
             originalList.forEach { (chanelName, chanelUrl) in
-                if chanelName.prefix(searchString!.count).lowercased() == searchString?.lowercased()
+                if chanelName.prefix(searchString!.count).lowercased() == searchString?.lowercased() || chanelName.lowercased().contains(searchString!)
                 {
                     sorted.append((key: chanelName, value: chanelUrl))
                 }

@@ -12,7 +12,7 @@ class CollectionViewCellChanel: UICollectionViewCell {
     @IBOutlet weak var cell: UIView!
     @IBOutlet weak var PlayChannel: UILabel!
     @IBOutlet weak var LikeButton: UIButton!
-    @IBOutlet weak var ChanellImage: UIImageView!
+//    @IBOutlet weak var ChanellImage: UIImageView!
     @IBOutlet weak var chanelCount: UILabel!
     let fileHandler = MtriUfileHandle()
     let favoritList = FavoriteList()
@@ -31,7 +31,7 @@ class CollectionViewCellChanel: UICollectionViewCell {
     {
      
         channelsTocheck = favoritList.ReadFileToFavorite()
-        chanelCount.text = String(chanelCounter)
+        chanelCount!.text = String(chanelCounter)
         like = isFavorite
         myChanellNow = chanelName
         if(isFavorite)
@@ -43,9 +43,9 @@ class CollectionViewCellChanel: UICollectionViewCell {
         }
         
             ChanelUrl = value
-//            cell.layer.masksToBounds = true
-//            cell.layer.cornerRadius = 4.5
-//        cell.layer.borderWidth = 1.3
+            cell.layer.masksToBounds = true
+            cell.layer.cornerRadius = 4.5
+            cell.layer.borderWidth = 1.3
             PlayChannel.text = chanelName
         }
         

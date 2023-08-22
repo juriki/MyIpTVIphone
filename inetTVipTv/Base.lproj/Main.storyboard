@@ -98,10 +98,10 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="10" minimumInteritemSpacing="10" sectionInsetReference="safeArea" id="xPy-ew-36s">
-                            <size key="itemSize" width="124" height="129"/>
+                            <size key="itemSize" width="128" height="128"/>
                             <size key="headerReferenceSize" width="0.0" height="0.0"/>
                             <size key="footerReferenceSize" width="0.0" height="0.0"/>
-                            <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
+                            <inset key="sectionInset" minX="10" minY="10" maxX="10" maxY="0.0"/>
                         </collectionViewFlowLayout>
                         <imageView key="backgroundView" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="rain2" id="Qaf-tt-B7r">
                             <rect key="frame" x="0.0" y="0.0" width="430" height="829"/>
@@ -109,91 +109,77 @@
                             <color key="backgroundColor" red="0.59215686274509804" green="0.59215686274509804" blue="0.59215686274509804" alpha="0.64528347798530628" colorSpace="custom" customColorSpace="displayP3"/>
                         </imageView>
                         <cells>
-                            <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleAspectFit" reuseIdentifier="Cell1" id="f6I-rn-42E" customClass="CollectionViewCellChanel" customModule="inetTVipTv" customModuleProvider="target">
-                                <rect key="frame" x="0.0" y="0.0" width="128" height="128"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO">
+                            <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" reuseIdentifier="Cell1" id="oJu-gh-hgv" customClass="CollectionViewCellChanel" customModule="inetTVipTv" customModuleProvider="target">
+                                <rect key="frame" x="10" y="10" width="128" height="128"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <collectionViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" id="mTH-4U-xrH">
                                     <rect key="frame" x="0.0" y="0.0" width="128" height="128"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                     <subviews>
-                                        <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="logtv2" translatesAutoresizingMaskIntoConstraints="NO" id="apa-Xh-b4V">
-                                            <rect key="frame" x="0.0" y="0.0" width="128" height="128"/>
-                                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                            <color key="tintColor" red="1" green="1" blue="0.27406529019999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="tvLogo" translatesAutoresizingMaskIntoConstraints="NO" id="QZp-XC-Sdj">
+                                            <rect key="frame" x="9" y="-1" width="110" height="110"/>
                                             <constraints>
-                                                <constraint firstAttribute="height" constant="128" id="Ayb-Hp-dgb"/>
-                                                <constraint firstAttribute="width" constant="128" id="bIN-Iq-OHN"/>
+                                                <constraint firstAttribute="width" constant="110" id="Fde-SA-DAT"/>
+                                                <constraint firstAttribute="height" constant="110" id="aUX-pp-3sw"/>
                                             </constraints>
                                         </imageView>
-                                        <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="67" translatesAutoresizingMaskIntoConstraints="NO" id="c1W-Ow-Vf2">
-                                            <rect key="frame" x="0.0" y="0.0" width="128" height="128"/>
-                                            <subviews>
-                                                <stackView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="X9e-Zx-SE5">
-                                                    <rect key="frame" x="0.0" y="0.0" width="128" height="29.666666666666668"/>
-                                                    <subviews>
-                                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="122" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Z7B-CX-56T">
-                                                            <rect key="frame" x="0.0" y="0.0" width="19.666666666666668" height="29.666666666666668"/>
-                                                            <fontDescription key="fontDescription" name="TimesNewRomanPS-BoldMT" family="Times New Roman" pointSize="13"/>
-                                                            <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                                            <nil key="highlightedColor"/>
-                                                        </label>
-                                                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="trailing" contentVerticalAlignment="top" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sj4-ed-2vk">
-                                                            <rect key="frame" x="19.666666666666664" y="0.0" width="108.33333333333334" height="29.666666666666668"/>
-                                                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                                            <color key="tintColor" systemColor="systemRedColor"/>
-                                                            <state key="normal" title="Button"/>
-                                                            <buttonConfiguration key="configuration" style="filled" image="heart" catalog="system">
-                                                                <color key="baseForegroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                                                <color key="baseBackgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                                            </buttonConfiguration>
-                                                            <connections>
-                                                                <action selector="ButtonClicked:" destination="f6I-rn-42E" eventType="touchUpInside" id="iHA-X0-uNM"/>
-                                                            </connections>
-                                                        </button>
-                                                    </subviews>
-                                                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                                    <color key="tintColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                                    <constraints>
-                                                        <constraint firstAttribute="width" constant="128" id="FCl-nr-7PW"/>
-                                                    </constraints>
-                                                </stackView>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text=" WDSKNSBDK INBDKHBSBB" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="l9Z-nA-dPq">
-                                                    <rect key="frame" x="0.0" y="96.666666666666671" width="128" height="31.333333333333329"/>
-                                                    <fontDescription key="fontDescription" name="TimesNewRomanPS-BoldMT" family="Times New Roman" pointSize="14"/>
-                                                    <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                                    <nil key="highlightedColor"/>
-                                                </label>
-                                            </subviews>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mEa-02-mVn">
+                                            <rect key="frame" x="0.0" y="78" width="128" height="50"/>
                                             <constraints>
-                                                <constraint firstAttribute="bottom" secondItem="l9Z-nA-dPq" secondAttribute="bottom" id="U8F-8w-wUp"/>
-                                                <constraint firstAttribute="width" constant="128" id="aKN-xL-0nO"/>
-                                                <constraint firstItem="l9Z-nA-dPq" firstAttribute="leading" secondItem="c1W-Ow-Vf2" secondAttribute="leading" id="cl2-Cf-3Z6"/>
-                                                <constraint firstAttribute="height" constant="128" id="jmt-Fz-Xil"/>
-                                                <constraint firstAttribute="trailing" secondItem="l9Z-nA-dPq" secondAttribute="trailing" id="jni-Q3-p69"/>
-                                                <constraint firstItem="l9Z-nA-dPq" firstAttribute="top" secondItem="X9e-Zx-SE5" secondAttribute="bottom" constant="67" id="tCD-WT-Vhc"/>
+                                                <constraint firstAttribute="height" constant="50" id="10R-44-JWe"/>
+                                                <constraint firstAttribute="width" constant="128" id="ozZ-Wg-CtT"/>
                                             </constraints>
-                                        </stackView>
+                                            <fontDescription key="fontDescription" name="TimesNewRomanPS-BoldMT" family="Times New Roman" pointSize="16"/>
+                                            <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="trailing" contentVerticalAlignment="top" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ypl-w6-maw">
+                                            <rect key="frame" x="63" y="0.0" width="65" height="54"/>
+                                            <constraints>
+                                                <constraint firstAttribute="width" constant="65" id="DGc-Bp-lMN"/>
+                                                <constraint firstAttribute="height" constant="54" id="h8m-xg-aog"/>
+                                            </constraints>
+                                            <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                            <state key="normal" title="Button"/>
+                                            <buttonConfiguration key="configuration" style="plain" image="heart" catalog="system"/>
+                                            <connections>
+                                                <action selector="ButtonClicked:" destination="oJu-gh-hgv" eventType="touchUpInside" id="7Di-9L-lxQ"/>
+                                            </connections>
+                                        </button>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="28" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NuV-wX-kfy">
+                                            <rect key="frame" x="0.0" y="0.0" width="42" height="31"/>
+                                            <constraints>
+                                                <constraint firstAttribute="height" constant="31" id="SG5-Vf-Cko"/>
+                                                <constraint firstAttribute="width" constant="42" id="aq3-Pb-79t"/>
+                                            </constraints>
+                                            <fontDescription key="fontDescription" name="TimesNewRomanPS-BoldMT" family="Times New Roman" pointSize="17"/>
+                                            <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
                                     </subviews>
-                                </view>
-                                <color key="backgroundColor" systemColor="systemIndigoColor"/>
-                                <constraints>
-                                    <constraint firstItem="apa-Xh-b4V" firstAttribute="centerY" secondItem="c1W-Ow-Vf2" secondAttribute="centerY" id="0be-wz-8qo"/>
-                                    <constraint firstItem="apa-Xh-b4V" firstAttribute="centerX" secondItem="f6I-rn-42E" secondAttribute="centerX" id="4BH-Rj-zG5"/>
-                                    <constraint firstItem="apa-Xh-b4V" firstAttribute="top" secondItem="c1W-Ow-Vf2" secondAttribute="top" id="6EW-aG-Qwq"/>
-                                    <constraint firstItem="apa-Xh-b4V" firstAttribute="leading" secondItem="c1W-Ow-Vf2" secondAttribute="leading" id="LE1-HM-bwQ"/>
-                                    <constraint firstItem="c1W-Ow-Vf2" firstAttribute="centerY" secondItem="f6I-rn-42E" secondAttribute="centerY" id="lkd-Dj-YQc"/>
-                                </constraints>
-                                <size key="customSize" width="128" height="128"/>
+                                    <color key="backgroundColor" red="0.20136955379999999" green="0.46218782660000002" blue="0.95298725370000004" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                    <constraints>
+                                        <constraint firstAttribute="trailing" secondItem="mEa-02-mVn" secondAttribute="trailing" id="1cL-i7-asH"/>
+                                        <constraint firstItem="Ypl-w6-maw" firstAttribute="top" secondItem="mTH-4U-xrH" secondAttribute="top" id="7Tj-fY-JNV"/>
+                                        <constraint firstItem="QZp-XC-Sdj" firstAttribute="centerX" secondItem="mTH-4U-xrH" secondAttribute="centerX" id="TtY-xs-Syv"/>
+                                        <constraint firstItem="QZp-XC-Sdj" firstAttribute="centerY" secondItem="mTH-4U-xrH" secondAttribute="centerY" constant="-10" id="U8X-0a-uwA"/>
+                                        <constraint firstItem="mEa-02-mVn" firstAttribute="leading" secondItem="mTH-4U-xrH" secondAttribute="leading" id="VRs-U3-iLa"/>
+                                        <constraint firstItem="NuV-wX-kfy" firstAttribute="leading" secondItem="mTH-4U-xrH" secondAttribute="leading" id="jHE-7G-kQ0"/>
+                                        <constraint firstAttribute="trailing" secondItem="Ypl-w6-maw" secondAttribute="trailing" id="oro-W3-Ujd"/>
+                                        <constraint firstAttribute="bottom" secondItem="mEa-02-mVn" secondAttribute="bottom" id="rSJ-ZJ-fR3"/>
+                                        <constraint firstItem="NuV-wX-kfy" firstAttribute="top" secondItem="mTH-4U-xrH" secondAttribute="top" id="wKe-Zp-i7C"/>
+                                    </constraints>
+                                </collectionViewCellContentView>
                                 <connections>
-                                    <outlet property="ChanellImage" destination="apa-Xh-b4V" id="dty-Jm-gwy"/>
-                                    <outlet property="LikeButton" destination="sj4-ed-2vk" id="uwE-kK-BTE"/>
-                                    <outlet property="PlayChannel" destination="l9Z-nA-dPq" id="dMq-oC-ozb"/>
-                                    <outlet property="chanelCount" destination="Z7B-CX-56T" id="nLJ-eK-zXu"/>
+                                    <outlet property="LikeButton" destination="Ypl-w6-maw" id="aCS-Lb-ifa"/>
+                                    <outlet property="PlayChannel" destination="mEa-02-mVn" id="fD1-lq-A0D"/>
+                                    <outlet property="cell" destination="mTH-4U-xrH" id="u1l-dc-gLP"/>
+                                    <outlet property="chanelCount" destination="NuV-wX-kfy" id="qZ8-2S-zoh"/>
                                 </connections>
                             </collectionViewCell>
                         </cells>
                         <connections>
-                            <outlet property="dataSource" destination="LI6-S6-SOM" id="dc3-7R-Bzt"/>
+                            <outlet property="dataSource" destination="LI6-S6-SOM" id="qIj-iK-5SD"/>
                             <outlet property="delegate" destination="LI6-S6-SOM" id="nZZ-2M-PuR"/>
                         </connections>
                     </collectionView>
@@ -368,17 +354,11 @@
     </scenes>
     <resources>
         <image name="heart" catalog="system" width="128" height="107"/>
-        <image name="logtv2" width="4000" height="4000"/>
         <image name="rain2" width="1224" height="2305"/>
+        <image name="tvLogo" width="1500" height="1500"/>
         <image name="videoprojector" catalog="system" width="128" height="60"/>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-        </systemColor>
-        <systemColor name="systemIndigoColor">
-            <color red="0.34509803921568627" green="0.33725490196078434" blue="0.83921568627450982" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-        </systemColor>
-        <systemColor name="systemRedColor">
-            <color red="1" green="0.23137254901960785" blue="0.18823529411764706" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
         <systemColor name="tintColor">
             <color red="0.0" green="0.47843137254901963" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>

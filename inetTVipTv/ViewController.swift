@@ -50,25 +50,5 @@ class ViewController: UIViewController {
         self.navigationController?.pushViewController(vc, animated: true)
         
     }
-    
-    
-    @IBAction func testButtonFuncktion(_ sender: Any) {
-
-        
-        let adress = "http://213.226.69.162/iptv/UV8MN3KV3YZ6KW/12191/1692558480000.ts?md5=agbLlekFImk613byHIEmWw"
-        
-        let videoURL = URL(string: adress)
-        
-        let player = AVPlayer(url: videoURL!)
-        let playerViewController = AVPlayerViewController()
-        playerViewController.player = player
-        self.present(playerViewController, animated: true) {
-            print(AVPlayer.Status.failed)
-                playerViewController.player!.play()
-            
-            }
-    }
-    
- 
 }
 

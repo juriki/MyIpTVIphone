@@ -9,7 +9,7 @@ import UIKit
 
 private let reuseIdentifier = "Cell"
 
-class CollectionViewController: UICollectionViewController  {
+class CollectionViewController: UICollectionViewController, UICollectionViewDelegateFlowLayout  {
     
     var dataToDeleteAfgerTest: [String] = []
     var chanelDelagator = ""
@@ -26,13 +26,23 @@ class CollectionViewController: UICollectionViewController  {
         fileHandler.ReadFileFromMemory()
         channelsTocheck = favoritList.ReadFileToFavorite()
         dataToDeleteAfgerTest = fileHandler.Cateroies
+        
+        
         super.viewDidLoad()
     }
 
     func updateMyView(){
-          viewWillAppear(true)
+        collectionView.reloadData()
+//        viewWillAppear(true)
         
     }
+    
+    func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, sizeForItemAt indexPath: IndexPath) -> CGSize {
+        let width = (self.view.frame.size.width - 20) / 3 //some width
+        let height = width * 1.5 //ratio
+        return CGSize(width: width, height: height)
+    }
+    
     
     override func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
         return dataToDeleteAfgerTest.count
@@ -45,11 +55,10 @@ class CollectionViewController: UICollectionViewController  {
         if let ChanelCell = collectionView.dequeueReusableCell(withReuseIdentifier: "Cell", for: indexPath) as? CollectionViewCell
         {
             ChanelCell.configure(with: dataToDeleteAfgerTest[indexPath.row])
-            
+   
             cell = ChanelCell
-            viewWillAppear(true)
         }
-        
+
         return cell
     }
     

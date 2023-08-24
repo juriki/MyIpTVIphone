@@ -34,6 +34,7 @@ class CollectionViewControllerChanels: UICollectionViewController, UISearchResul
         search.searchResultsUpdater = self
         self.navigationItem.searchController = search
         
+        
         if(myChanelCategory == "Favorite")
         {
             sorted = IsFavorite()
@@ -64,7 +65,7 @@ class CollectionViewControllerChanels: UICollectionViewController, UISearchResul
 
             let key = Array(sorted)[indexPath.row]
 
-            for (keys, value) in sorted {
+            for (keys, _) in sorted {
                 if keys == key.key
                 {
                     break
@@ -91,7 +92,9 @@ class CollectionViewControllerChanels: UICollectionViewController, UISearchResul
         let player = AVPlayer(url: videoURL!)
         let playerViewController = AVPlayerViewController()
         playerViewController.player = player
+        
         self.present(playerViewController, animated: true) {
+                
                 playerViewController.player!.play()
             }
     }
@@ -123,8 +126,6 @@ class CollectionViewControllerChanels: UICollectionViewController, UISearchResul
     @objc(updateSearchResultsForSearchController:) func updateSearchResults(for searchController: UISearchController) {
         
         let searchString = searchController.searchBar.text
-        
-    
         
         if searchString!.count >= 1{
             sorted.removeAll()

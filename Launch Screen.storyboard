@@ -15,9 +15,6 @@
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="rain2" translatesAutoresizingMaskIntoConstraints="NO" id="FXs-9p-E2H">
-                                <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
-                            </imageView>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="tv2" translatesAutoresizingMaskIntoConstraints="NO" id="eS4-uZ-lbx">
                                 <rect key="frame" x="121.66666666666669" y="326" width="150" height="200"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -39,12 +36,8 @@
                         <constraints>
                             <constraint firstItem="eS4-uZ-lbx" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" id="12a-Ag-NHV"/>
                             <constraint firstItem="eS4-uZ-lbx" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="1yz-lV-wJY"/>
-                            <constraint firstAttribute="bottom" secondItem="FXs-9p-E2H" secondAttribute="bottom" id="7C5-pb-Y8l"/>
                             <constraint firstItem="Bcu-3y-fUS" firstAttribute="trailing" secondItem="Wuf-DI-Yl4" secondAttribute="trailing" constant="16" id="Arc-Mp-tgH"/>
-                            <constraint firstItem="Bcu-3y-fUS" firstAttribute="trailing" secondItem="FXs-9p-E2H" secondAttribute="trailing" id="Hky-PM-3Vf"/>
                             <constraint firstItem="Wuf-DI-Yl4" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="I4I-Nh-2dZ"/>
-                            <constraint firstItem="FXs-9p-E2H" firstAttribute="leading" secondItem="Bcu-3y-fUS" secondAttribute="leading" id="QeK-P3-QPd"/>
-                            <constraint firstItem="FXs-9p-E2H" firstAttribute="top" secondItem="Ze5-6b-2t3" secondAttribute="top" id="UEg-BP-8ld"/>
                             <constraint firstItem="Bcu-3y-fUS" firstAttribute="bottom" secondItem="Wuf-DI-Yl4" secondAttribute="bottom" constant="85" id="jJH-AS-o9S"/>
                             <constraint firstItem="Wuf-DI-Yl4" firstAttribute="leading" secondItem="Bcu-3y-fUS" secondAttribute="leading" constant="16" id="kLG-9Y-rdU"/>
                         </constraints>
@@ -56,7 +49,6 @@
         </scene>
     </scenes>
     <resources>
-        <image name="rain2" width="1224" height="2305"/>
         <image name="tv2" width="2000" height="1472"/>
     </resources>
 </document>

@@ -43,9 +43,9 @@ class CollectionViewCellChanel: UICollectionViewCell {
         }
         
             ChanelUrl = value
-            cell.layer.masksToBounds = true
-            cell.layer.cornerRadius = 4.5
-            cell.layer.borderWidth = 1.3
+//            cell.layer.masksToBounds = true
+//            cell.layer.cornerRadius = 4.5
+//            cell.layer.borderWidth = 1.3
             PlayChannel.text = chanelName
         }
         
@@ -70,7 +70,6 @@ class CollectionViewCellChanel: UICollectionViewCell {
                 if Chanel != myChanellNow
                     
                 {
-   
                     favoritList.appendToFile(channel: Chanel, chanelUrl: urli)
 //                    favoritList.ReadFileToFavorite()
                 }

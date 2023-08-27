@@ -6,6 +6,8 @@
 //
 
 import UIKit
+//import AVFAudio
+import AVKit
 
 @main
 class AppDelegate: UIResponder, UIApplicationDelegate {
@@ -14,6 +16,16 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
+        
+        let session = AVAudioSession.sharedInstance()
+        
+        do{
+            try session.setCategory(.playback, mode: .moviePlayback)
+        } catch let err{
+            print(err.localizedDescription)
+        }
+        
+        
         return true
     }
 

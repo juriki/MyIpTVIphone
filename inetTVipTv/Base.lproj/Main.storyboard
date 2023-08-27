@@ -30,48 +30,47 @@
                         </collectionViewFlowLayout>
                         <cells>
                             <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleAspectFill" insetsLayoutMarginsFromSafeArea="NO" reuseIdentifier="Cell" id="1Dd-Cx-rnC" customClass="CollectionViewCell" customModule="inetTVipTv" customModuleProvider="target">
-                                <rect key="frame" x="13" y="30" width="403" height="90"/>
+                                <rect key="frame" x="40" y="30" width="350" height="92"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMinY="YES"/>
                                 <collectionViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" id="N8z-mm-knd">
-                                    <rect key="frame" x="0.0" y="0.0" width="403" height="90"/>
+                                    <rect key="frame" x="0.0" y="0.0" width="350" height="92"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                     <subviews>
-                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="1000 : Chanels" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="TJn-uI-2iN">
-                                            <rect key="frame" x="249" y="3" width="144" height="30"/>
-                                            <constraints>
-                                                <constraint firstAttribute="height" constant="30" id="0ku-zz-hyN"/>
-                                                <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="144" id="cLi-KK-Kza"/>
-                                            </constraints>
-                                            <fontDescription key="fontDescription" name="TimesNewRomanPS-BoldMT" family="Times New Roman" pointSize="13"/>
-                                            <nil key="textColor"/>
-                                            <nil key="highlightedColor"/>
-                                        </label>
                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jRD-cW-WAx">
-                                            <rect key="frame" x="76.666666666666686" y="20" width="250" height="50"/>
+                                            <rect key="frame" x="65" y="32" width="220" height="28"/>
                                             <constraints>
-                                                <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="250" id="AvH-16-cTS"/>
-                                                <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="50" id="NnL-Cr-4YK"/>
+                                                <constraint firstAttribute="width" constant="220" id="Q9Q-Pr-HQ4"/>
                                             </constraints>
                                             <edgeInsets key="layoutMargins" top="8" left="8" bottom="8" right="8"/>
-                                            <fontDescription key="fontDescription" name="TimesNewRomanPS-BoldMT" family="Times New Roman" pointSize="29"/>
+                                            <fontDescription key="fontDescription" name="TimesNewRomanPS-BoldMT" family="Times New Roman" pointSize="25"/>
                                             <nil key="textColor"/>
                                             <nil key="highlightedColor"/>
                                             <color key="shadowColor" red="0.55794287239999996" green="0.55794287239999996" blue="0.55794287239999996" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                             <size key="shadowOffset" width="0.0" height="0.0"/>
                                         </label>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="1000 : Chanels" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="TJn-uI-2iN">
+                                            <rect key="frame" x="100" y="7.9999999999999991" width="240" height="14.666666666666661"/>
+                                            <constraints>
+                                                <constraint firstAttribute="height" constant="14.666666666666666" id="LbC-F9-Ehr"/>
+                                                <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="240" id="f8J-qz-Bvl"/>
+                                            </constraints>
+                                            <fontDescription key="fontDescription" name="TimesNewRomanPS-BoldMT" family="Times New Roman" pointSize="13"/>
+                                            <nil key="textColor"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
                                     </subviews>
                                     <viewLayoutGuide key="safeArea" id="umR-Nx-M5S"/>
                                     <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                     <constraints>
-                                        <constraint firstItem="umR-Nx-M5S" firstAttribute="bottom" secondItem="jRD-cW-WAx" secondAttribute="bottom" constant="20" id="2Kd-al-pxl"/>
-                                        <constraint firstItem="TJn-uI-2iN" firstAttribute="top" secondItem="umR-Nx-M5S" secondAttribute="top" constant="3" id="5aS-S9-BQ7"/>
-                                        <constraint firstItem="TJn-uI-2iN" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="umR-Nx-M5S" secondAttribute="leading" constant="200" id="ML8-lo-GaP"/>
-                                        <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="jRD-cW-WAx" secondAttribute="trailing" constant="20" id="OAh-cc-M8h"/>
-                                        <constraint firstItem="umR-Nx-M5S" firstAttribute="bottom" secondItem="jRD-cW-WAx" secondAttribute="bottom" constant="20" id="ZLe-RQ-fB2"/>
-                                        <constraint firstItem="jRD-cW-WAx" firstAttribute="centerX" secondItem="N8z-mm-knd" secondAttribute="centerX" id="dC1-Ql-KKp"/>
-                                        <constraint firstItem="jRD-cW-WAx" firstAttribute="top" secondItem="umR-Nx-M5S" secondAttribute="top" constant="20" id="hKN-O0-SeH"/>
-                                        <constraint firstItem="jRD-cW-WAx" firstAttribute="centerY" secondItem="N8z-mm-knd" secondAttribute="centerY" id="olJ-vX-Hyh"/>
-                                        <constraint firstItem="umR-Nx-M5S" firstAttribute="trailing" secondItem="TJn-uI-2iN" secondAttribute="trailing" constant="10" id="zQX-m8-xXp"/>
+                                        <constraint firstItem="jRD-cW-WAx" firstAttribute="centerY" secondItem="N8z-mm-knd" secondAttribute="centerY" id="0n1-tu-9V3"/>
+                                        <constraint firstItem="jRD-cW-WAx" firstAttribute="top" secondItem="umR-Nx-M5S" secondAttribute="top" constant="32" id="98i-qG-7PP"/>
+                                        <constraint firstItem="jRD-cW-WAx" firstAttribute="centerX" secondItem="N8z-mm-knd" secondAttribute="centerX" id="AP1-df-8I1"/>
+                                        <constraint firstItem="umR-Nx-M5S" firstAttribute="trailing" secondItem="TJn-uI-2iN" secondAttribute="trailing" constant="10" id="EY4-Jr-MgH"/>
+                                        <constraint firstItem="umR-Nx-M5S" firstAttribute="bottom" secondItem="jRD-cW-WAx" secondAttribute="bottom" constant="32" id="Gaa-O0-aim"/>
+                                        <constraint firstItem="jRD-cW-WAx" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="umR-Nx-M5S" secondAttribute="leading" constant="45" id="MLe-b7-m31"/>
+                                        <constraint firstItem="umR-Nx-M5S" firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="jRD-cW-WAx" secondAttribute="trailing" constant="45" id="PlX-ax-PVM"/>
+                                        <constraint firstItem="TJn-uI-2iN" firstAttribute="top" secondItem="N8z-mm-knd" secondAttribute="topMargin" id="S1I-kV-ZbQ"/>
+                                        <constraint firstItem="TJn-uI-2iN" firstAttribute="leading" secondItem="umR-Nx-M5S" secondAttribute="leading" constant="100" id="cAA-Gg-TlD"/>
                                     </constraints>
                                 </collectionViewCellContentView>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
@@ -214,7 +213,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="fill" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="url or m3u8" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="qzr-ag-Abx">
-                                <rect key="frame" x="20" y="390.66666666666669" width="390" height="39.999999999999943"/>
+                                <rect key="frame" x="20" y="390.66666666666669" width="390" height="40"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <constraints>
@@ -312,12 +311,12 @@
                     <navigationBar key="navigationBar" opaque="NO" multipleTouchEnabled="YES" contentMode="scaleToFill" barStyle="black" id="FTm-Y9-3xv">
                         <rect key="frame" x="0.0" y="59" width="430" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
-                        <color key="backgroundColor" red="0.0" green="0.97680455450000003" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="backgroundColor" systemColor="systemGreenColor"/>
                         <rect key="contentStretch" x="1" y="1" width="1" height="1"/>
                         <color key="barTintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <textAttributes key="titleTextAttributes">
                             <fontDescription key="fontDescription" name="TimesNewRomanPS-BoldMT" family="Times New Roman" pointSize="0.0"/>
-                            <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <color key="textColor" systemColor="labelColor"/>
                         </textAttributes>
                         <textAttributes key="largeTitleTextAttributes">
                             <fontDescription key="fontDescription" name="TimesNewRomanPSMT" family="Times New Roman" pointSize="0.0"/>
@@ -343,11 +342,17 @@
         <image name="heart" catalog="system" width="128" height="107"/>
         <image name="tvLogo" width="1500" height="1500"/>
         <image name="videoprojector" catalog="system" width="128" height="60"/>
+        <systemColor name="labelColor">
+            <color red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
         <systemColor name="opaqueSeparatorColor">
             <color red="0.77647058823529413" green="0.77647058823529413" blue="0.78431372549019607" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="systemGreenColor">
+            <color red="0.20392156862745098" green="0.7803921568627451" blue="0.34901960784313724" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
         <systemColor name="tintColor">
             <color red="0.0" green="0.47843137254901963" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>

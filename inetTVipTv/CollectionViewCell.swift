@@ -27,14 +27,7 @@ class CollectionViewCell: UICollectionViewCell {
         }else
         {
             ChanelsCount.text = "\(String(fileHandler.getChanel(getByCategory: chanelName))) : Channels"
-        }
-
-//        let size = CGSize(width: 400, height: 100)
-//        cell.layer.cornerRadius = 1.5
-//        cell.layer.borderWidth = 0.1
-//        let cellWidth = UIScreen.main.bounds.width / 10
-//        let cellHeight = UIScreen.main.bounds.height / 10
-        
+        }        
         ChanelName.text = chanelName
     }
 }

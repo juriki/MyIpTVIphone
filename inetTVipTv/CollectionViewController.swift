@@ -18,7 +18,6 @@ class CollectionViewController: UICollectionViewController, UICollectionViewDele
     var channelsTocheck: Array<(String,String,String)> = Array()
     let favoritList = FavoriteList()
 
-    
 
     
     override func viewDidLoad() {
@@ -26,23 +25,16 @@ class CollectionViewController: UICollectionViewController, UICollectionViewDele
         fileHandler.ReadFileFromMemory()
         channelsTocheck = favoritList.ReadFileToFavorite()
         dataToDeleteAfgerTest = fileHandler.Cateroies
-        
-        
         super.viewDidLoad()
     }
 
-    func updateMyView(){
-        collectionView.reloadData()
+//    
+//    func updateMyView(){
+//        collectionView.reloadData()
 //        viewWillAppear(true)
-        
-    }
-    
-    func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, sizeForItemAt indexPath: IndexPath) -> CGSize {
-        let width = (self.view.frame.size.width - 20) / 3 //some width
-        let height = width * 1.5 //ratio
-        return CGSize(width: width, height: height)
-    }
-    
+//    }
+//    
+//    
     
     override func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
         return dataToDeleteAfgerTest.count
@@ -50,19 +42,14 @@ class CollectionViewController: UICollectionViewController, UICollectionViewDele
 
 
     override func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
-        
         var cell = UICollectionViewCell()
         if let ChanelCell = collectionView.dequeueReusableCell(withReuseIdentifier: "Cell", for: indexPath) as? CollectionViewCell
         {
             ChanelCell.configure(with: dataToDeleteAfgerTest[indexPath.row])
-   
             cell = ChanelCell
         }
-
         return cell
     }
-    
-    
     
     
     override func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
@@ -71,8 +58,6 @@ class CollectionViewController: UICollectionViewController, UICollectionViewDele
             let vc = self.storyboard?.instantiateViewController(withIdentifier: "CollectionViewControllerChanels") as! CollectionViewControllerChanels
             vc.myChanelCategory = dataToDeleteAfgerTest[indexPath.row]
             self.navigationController?.pushViewController(vc, animated: true)
-            
-        
     }
     
 //

@@ -24,15 +24,18 @@ class CollectionViewControllerChanels: UICollectionViewController, UISearchResul
     var originalList: [(key: String, value: String)] = []
     let favoriteFile = FavoriteList()
     var searshCheck = false
+    var lastChannel = ""
 
     
     override func viewDidLoad() {
         self.navigationController?.isNavigationBarHidden = false
-        navigationController?.navigationItem.largeTitleDisplayMode = .always
+//        navigationController?.navigationItem.largeTitleDisplayMode = .always
         navigationController?.navigationBar.barTintColor = .link
         let search = UISearchController(searchResultsController: nil)
+        search.searchBar.placeholder = "Поиск Канала"
         search.searchResultsUpdater = self
         self.navigationItem.searchController = search
+        
         
         
         if(myChanelCategory == "Favorite")
@@ -74,9 +77,8 @@ class CollectionViewControllerChanels: UICollectionViewController, UISearchResul
             }
 
             _ = URL(string: key.value)
-            ChanelCell.configureChanel(with: key.key, value: key.value, isFavorite: favoriteFile.checkToMoch(chanelNameTocheck: key.key), chanelCounter: chanelNumber  )
-   
-            chanelNumber += 1
+            ChanelCell.configureChanel(with: key.key, value: key.value, isFavorite: favoriteFile.checkToMoch(chanelNameTocheck: key.key), chanelCounter: chanelNumber, last: lastChannel)
+               chanelNumber += 1
             cell = ChanelCell
         }
         
@@ -92,15 +94,16 @@ class CollectionViewControllerChanels: UICollectionViewController, UISearchResul
         let player = AVPlayer(url: videoURL!)
         let playerViewController = AVPlayerViewController()
         playerViewController.player = player
+//
+//      последний канал
+//
+        lastChannel = key.key
+        collectionView.reloadData()
         
         self.present(playerViewController, animated: true) {
-                
-                playerViewController.player!.play()
+            playerViewController.player!.play()
             }
     }
-    
-    
-
     
     
     
@@ -110,6 +113,7 @@ class CollectionViewControllerChanels: UICollectionViewController, UISearchResul
         sorted = arr
     }
 
+    
     func IsFavorite()  -> Array<(String, String)>
     {
         var channelsChekTo: Array<(String,String,String)> = Array()
@@ -125,12 +129,12 @@ class CollectionViewControllerChanels: UICollectionViewController, UISearchResul
     
     @objc(updateSearchResultsForSearchController:) func updateSearchResults(for searchController: UISearchController) {
         
-        let searchString = searchController.searchBar.text
+        let searchString = searchController.searchBar.text?.lowercased()
         
         if searchString!.count >= 1{
             sorted.removeAll()
             originalList.forEach { (chanelName, chanelUrl) in
-                if chanelName.prefix(searchString!.count).lowercased() == searchString?.lowercased() || chanelName.lowercased().contains(searchString!)
+                if chanelName.prefix(searchString!.count).lowercased() == searchString || chanelName.lowercased().contains(searchString!)
                 {
                     sorted.append((key: chanelName, value: chanelUrl))
                 }
@@ -142,8 +146,6 @@ class CollectionViewControllerChanels: UICollectionViewController, UISearchResul
             collectionView.reloadData()
         }
     }
-
-
 }
 
 

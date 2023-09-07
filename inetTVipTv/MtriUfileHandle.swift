@@ -20,7 +20,7 @@ class MtriUfileHandle : UIViewController{
     
 
     
-    func ReadFileFromMemory() -> Bool
+    func ReadFileFromMemory()
     {
         let destinationFileUrl = documentsUrl.appendingPathComponent(fileName)
         _ =  FileManager.default.contents(atPath: String(destinationFileUrl.path))
@@ -35,7 +35,7 @@ class MtriUfileHandle : UIViewController{
                         var notUrl = false
                         var ChaneCategory = newtext[i]
                         ChaneCategory.removeFirst(7)
-                        guard let removeHttp = ChaneCategory.firstIndex(of: "h") else { return  false}
+                        guard let removeHttp = ChaneCategory.firstIndex(of: "h") else { return}
                         var category = ChaneCategory[..<removeHttp]
                         category.removeLast(1)
                         var ChanelName = newtext[i-1]
@@ -72,13 +72,22 @@ class MtriUfileHandle : UIViewController{
                         ChanelDict.updateValue(ChanelUrl, forKey: category + " || " + ChanelName)
                     }
                 }
-            return true
             }
            catch {print("Error of converitng file")}
-        return false
     }
+    
 
-
+    func chekIfFileInMemory() -> Bool{
+        let destinationFileUrl = documentsUrl.appendingPathComponent(fileName)
+        _ =  FileManager.default.contents(atPath: String(destinationFileUrl.path))
+        do {
+            _ = try String(contentsOf: destinationFileUrl, encoding: .utf8)
+            return true
+        } catch (let writeError) {
+            print("read  File \(destinationFileUrl) : \(writeError)")
+            return false
+        }
+    }
     
     func DownlondFromUrl(myFileURL: String){
         // Create destination URL
@@ -149,7 +158,6 @@ class MtriUfileHandle : UIViewController{
                         }
                         ChanelSelctedDict[ChanelName] = ChanelUrl
                     }
-                    
                 }
             }
 
@@ -162,7 +170,6 @@ class MtriUfileHandle : UIViewController{
     }
     
     
-    
     func deleteFileFromMemory()
     {
         let destinationFileUrl = documentsUrl.appendingPathComponent(fileName)
@@ -173,9 +180,6 @@ class MtriUfileHandle : UIViewController{
             print("Error deleting file: \(error)")
         }
     }
-    
-
-    
 }
 
 

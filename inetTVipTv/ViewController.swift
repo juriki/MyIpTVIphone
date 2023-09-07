@@ -27,7 +27,7 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         navigationItem.hidesBackButton = true
-        if( fileHandler.ReadFileFromMemory())
+        if( fileHandler.chekIfFileInMemory())
         {
             let vc = self.storyboard?.instantiateViewController(withIdentifier: "CollectionViewController") as! CollectionViewController
             self.navigationController?.pushViewController(vc, animated: false)

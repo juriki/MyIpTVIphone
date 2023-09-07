@@ -42,7 +42,7 @@ class CollectionViewControllerChanels: UICollectionViewController, UISearchResul
         {
             sorted = IsFavorite()
         }else{
-            fileHandler.getChanel(getByCategory: myChanelCategory)
+             _ = fileHandler.getChanel(getByCategory: myChanelCategory)
             chanelList = fileHandler.ChanelSelctedDict
             sortChanels(dict: chanelList)
         }

@@ -42,7 +42,7 @@ class CollectionViewCellChanel: UICollectionViewCell {
         
         if chanelName == last {
             print(last)
-            cell.backgroundColor = .systemBlue
+            cell.backgroundColor = .systemCyan
         }else{
             cell.backgroundColor = .systemBackground
 

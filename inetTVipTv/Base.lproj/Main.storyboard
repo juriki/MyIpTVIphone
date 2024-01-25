@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="0Qr-IY-Cjv">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="22154" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="0Qr-IY-Cjv">
     <device id="retina6_72" orientation="portrait" appearance="light"/>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21679"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22130"/>
         <capability name="Image references" minToolsVersion="12.0"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="System colors in document resources" minToolsVersion="11.0"/>
@@ -48,6 +49,19 @@
                                             <nil key="textColor"/>
                                             <nil key="highlightedColor"/>
                                         </label>
+                                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="leading" contentVerticalAlignment="top" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xvA-6a-sh8">
+                                            <rect key="frame" x="0.0" y="0.0" width="51.666666666666664" height="55"/>
+                                            <constraints>
+                                                <constraint firstAttribute="height" constant="55" id="opy-xC-spO"/>
+                                            </constraints>
+                                            <state key="normal" title="Button"/>
+                                            <buttonConfiguration key="configuration" style="plain" image="lock.open.fill" catalog="system" title="">
+                                                <color key="baseForegroundColor" systemColor="darkTextColor"/>
+                                            </buttonConfiguration>
+                                            <connections>
+                                                <action selector="closeAccesToGroup:" destination="1Dd-Cx-rnC" eventType="touchUpInside" id="hh8-fd-1rk"/>
+                                            </connections>
+                                        </button>
                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" preservesSuperviewLayoutMargins="YES" layoutMarginsFollowReadableWidth="YES" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jRD-cW-WAx">
                                             <rect key="frame" x="15" y="10" width="360" height="90"/>
                                             <constraints>
@@ -66,12 +80,14 @@
                                         <constraint firstItem="jRD-cW-WAx" firstAttribute="centerX" secondItem="e2c-sA-oUc" secondAttribute="centerX" id="2In-w1-UdM"/>
                                         <constraint firstItem="jRD-cW-WAx" firstAttribute="leading" relation="lessThanOrEqual" secondItem="e2c-sA-oUc" secondAttribute="leading" constant="15" id="7hY-32-Zgb"/>
                                         <constraint firstItem="jRD-cW-WAx" firstAttribute="centerY" secondItem="e2c-sA-oUc" secondAttribute="centerY" id="922-ZG-FYC"/>
+                                        <constraint firstItem="xvA-6a-sh8" firstAttribute="top" secondItem="e2c-sA-oUc" secondAttribute="top" id="EDi-Lg-zA2"/>
                                         <constraint firstAttribute="bottom" secondItem="jRD-cW-WAx" secondAttribute="bottom" constant="10" id="LYi-20-Ydd"/>
                                         <constraint firstItem="TJn-uI-2iN" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="e2c-sA-oUc" secondAttribute="leading" constant="100" id="MhG-Wc-Ihp"/>
                                         <constraint firstAttribute="trailing" relation="lessThanOrEqual" secondItem="jRD-cW-WAx" secondAttribute="trailing" constant="15" id="VGx-ZY-YzE"/>
                                         <constraint firstItem="TJn-uI-2iN" firstAttribute="top" secondItem="e2c-sA-oUc" secondAttribute="top" id="Yd9-es-hEy"/>
                                         <constraint firstAttribute="bottom" secondItem="jRD-cW-WAx" secondAttribute="bottom" constant="10" id="jJE-iX-d1V"/>
                                         <constraint firstAttribute="trailing" secondItem="TJn-uI-2iN" secondAttribute="trailing" constant="10" id="pql-Fl-ljj"/>
+                                        <constraint firstItem="xvA-6a-sh8" firstAttribute="leading" secondItem="e2c-sA-oUc" secondAttribute="leading" id="smu-nZ-P6y"/>
                                     </constraints>
                                 </collectionViewCellContentView>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
@@ -80,6 +96,7 @@
                                 <connections>
                                     <outlet property="ChanelName" destination="jRD-cW-WAx" id="gRo-tG-mDA"/>
                                     <outlet property="ChanelsCount" destination="TJn-uI-2iN" id="txZ-Kl-uim"/>
+                                    <outlet property="LockButton" destination="xvA-6a-sh8" id="MOf-4w-9Jb"/>
                                 </connections>
                             </collectionViewCell>
                         </cells>
@@ -335,10 +352,14 @@
     </scenes>
     <resources>
         <image name="heart" catalog="system" width="128" height="107"/>
+        <image name="lock.open.fill" catalog="system" width="128" height="110"/>
         <image name="tvLogo" width="1500" height="1500"/>
         <image name="videoprojector" catalog="system" width="128" height="60"/>
+        <systemColor name="darkTextColor">
+            <color white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
         <systemColor name="labelColor">
-            <color red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <color white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>
         <systemColor name="opaqueSeparatorColor">
             <color red="0.77647058823529413" green="0.77647058823529413" blue="0.78431372549019607" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>

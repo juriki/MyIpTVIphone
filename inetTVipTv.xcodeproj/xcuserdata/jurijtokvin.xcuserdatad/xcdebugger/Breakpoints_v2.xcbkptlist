@@ -7,836 +7,63 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            uuid = "49EEB26C-1E4F-4F30-BBDA-5A36F775C305"
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "inetTVipTv/ViewController.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "51"
-            endingLineNumber = "51"
-            landmarkName = "FirstChanelButton(_:)"
-            landmarkType = "7">
-            <Locations>
-               <Location
-                  uuid = "49EEB26C-1E4F-4F30-BBDA-5A36F775C305 - 350557a98daaf29f"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "inetTVipTv.ViewController.FirstChanelButton(Any) -&gt; ()"
-                  moduleName = "inetTVipTv"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Volumes/Xcode%203/inetTVipTv/inetTVipTv/ViewController.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "39"
-                  endingLineNumber = "39"
-                  offsetFromSymbolStart = "140">
-               </Location>
-               <Location
-                  uuid = "49EEB26C-1E4F-4F30-BBDA-5A36F775C305 - 350557a98daaf29f"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "inetTVipTv.ViewController.FirstChanelButton(Any) -&gt; ()"
-                  moduleName = "inetTVipTv"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Volumes/Xcode%203/inetTVipTv/inetTVipTv/ViewController.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "39"
-                  endingLineNumber = "39"
-                  offsetFromSymbolStart = "240">
-               </Location>
-               <Location
-                  uuid = "49EEB26C-1E4F-4F30-BBDA-5A36F775C305 - 350557a98daaf48f"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "inetTVipTv.ViewController.FirstChanelButton(Any) -&gt; ()"
-                  moduleName = "inetTVipTv"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Volumes/Xcode%203/inetTVipTv/inetTVipTv/ViewController.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "55"
-                  endingLineNumber = "55"
-                  offsetFromSymbolStart = "240">
-               </Location>
-               <Location
-                  uuid = "49EEB26C-1E4F-4F30-BBDA-5A36F775C305 - 350557a98daaf2d9"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "inetTVipTv.ViewController.FirstChanelButton(Any) -&gt; ()"
-                  moduleName = "inetTVipTv"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Volumes/Xcode%203/inetTVipTv/inetTVipTv/ViewController.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "41"
-                  endingLineNumber = "41"
-                  offsetFromSymbolStart = "92">
-               </Location>
-            </Locations>
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            uuid = "E68DE1B5-975E-4AB7-9970-DAB90C6A0938"
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "inetTVipTv/SecondViewController.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "22"
-            endingLineNumber = "22"
-            landmarkName = "SecondViewController"
-            landmarkType = "3">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            uuid = "40BAC8FC-46CE-47B4-B5E0-44443CBE51B6"
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "inetTVipTv/ViewController.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "45"
-            endingLineNumber = "45"
-            landmarkName = "FirstChanelButton(_:)"
-            landmarkType = "7">
-            <Locations>
-               <Location
-                  uuid = "40BAC8FC-46CE-47B4-B5E0-44443CBE51B6 - 350557a98daaf21b"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "inetTVipTv.ViewController.FirstChanelButton(Any) -&gt; ()"
-                  moduleName = "inetTVipTv"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Volumes/Xcode%203/inetTVipTv/inetTVipTv/ViewController.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "43"
-                  endingLineNumber = "43"
-                  offsetFromSymbolStart = "568">
-               </Location>
-               <Location
-                  uuid = "40BAC8FC-46CE-47B4-B5E0-44443CBE51B6 - 350557a98daaf21b"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "inetTVipTv.ViewController.FirstChanelButton(Any) -&gt; ()"
-                  moduleName = "inetTVipTv"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Volumes/Xcode%203/inetTVipTv/inetTVipTv/ViewController.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "43"
-                  endingLineNumber = "43"
-                  offsetFromSymbolStart = "660">
-               </Location>
-               <Location
-                  uuid = "40BAC8FC-46CE-47B4-B5E0-44443CBE51B6 - 350557a98daaf21b"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "inetTVipTv.ViewController.FirstChanelButton(Any) -&gt; ()"
-                  moduleName = "inetTVipTv"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Volumes/Xcode%203/inetTVipTv/inetTVipTv/ViewController.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "43"
-                  endingLineNumber = "43"
-                  offsetFromSymbolStart = "564">
-               </Location>
-            </Locations>
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            uuid = "D348867A-ADED-489E-8875-A1A75FB68C00"
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "inetTVipTv/FavoretList.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "131"
-            endingLineNumber = "131"
-            landmarkName = "ReadFileToFavorite()"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            uuid = "E4C352E1-6150-4AB1-84B6-95058CA4391A"
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "inetTVipTv/FavoretList.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "133"
-            endingLineNumber = "133"
-            landmarkName = "ReadFileToFavorite()"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            uuid = "3A260053-2A11-453B-9C7A-B936C230772D"
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "inetTVipTv/FavoretList.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "127"
-            endingLineNumber = "127"
-            landmarkName = "ReadFileToFavorite()"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            uuid = "0C82486A-74B9-4CE6-B0B7-70A055B83F43"
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "inetTVipTv/FavoretList.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "79"
-            endingLineNumber = "79"
-            landmarkName = "appendToFile(channel:chanelUrl:)"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            uuid = "72C4FC57-8069-4F1B-83DD-38F4DE7752AC"
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "inetTVipTv/FavoretList.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "26"
-            endingLineNumber = "26"
-            landmarkName = "FavoriteChanelFile(channel:chanelUrl:)"
-            landmarkType = "7">
-            <Locations>
-               <Location
-                  uuid = "72C4FC57-8069-4F1B-83DD-38F4DE7752AC - 9e14431ffb2ece50"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "inetTVipTv.FavoriteList.FavoriteChanelFile(channel: Swift.String, chanelUrl: Swift.String) -&gt; ()"
-                  moduleName = "inetTVipTv"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Volumes/Xcode%203/inetTVipTv/inetTVipTv/FavoretList.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "27"
-                  endingLineNumber = "27"
-                  offsetFromSymbolStart = "310">
-               </Location>
-               <Location
-                  uuid = "72C4FC57-8069-4F1B-83DD-38F4DE7752AC - 9e14431ffb2ece50"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "inetTVipTv.FavoriteList.FavoriteChanelFile(channel: Swift.String, chanelUrl: Swift.String) -&gt; ()"
-                  moduleName = "inetTVipTv"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Volumes/Xcode%203/inetTVipTv/inetTVipTv/FavoretList.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "27"
-                  endingLineNumber = "27"
-                  offsetFromSymbolStart = "300">
-               </Location>
-               <Location
-                  uuid = "72C4FC57-8069-4F1B-83DD-38F4DE7752AC - 9e14431ffb2ece50"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "inetTVipTv.FavoriteList.FavoriteChanelFile(channel: Swift.String, chanelUrl: Swift.String) -&gt; ()"
-                  moduleName = "inetTVipTv"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Volumes/Xcode%203/inetTVipTv/inetTVipTv/FavoretList.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "27"
-                  endingLineNumber = "27"
-                  offsetFromSymbolStart = "460">
-               </Location>
-            </Locations>
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            uuid = "4AC7D863-46B1-4DC8-ADC4-066A68FF973C"
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "inetTVipTv/CollectionViewCell.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "29"
-            endingLineNumber = "29"
-            landmarkName = "configure(with:)"
-            landmarkType = "7">
-            <Locations>
-               <Location
-                  uuid = "4AC7D863-46B1-4DC8-ADC4-066A68FF973C - d9a684832af85514"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "inetTVipTv.CollectionViewCell.configure(with: Swift.String) -&gt; ()"
-                  moduleName = "inetTVipTv"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Volumes/Xcode%203/inetTVipTv/inetTVipTv/CollectionViewCell.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "28"
-                  endingLineNumber = "28"
-                  offsetFromSymbolStart = "1776">
-               </Location>
-               <Location
-                  uuid = "4AC7D863-46B1-4DC8-ADC4-066A68FF973C - d9a684832af85514"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "inetTVipTv.CollectionViewCell.configure(with: Swift.String) -&gt; ()"
-                  moduleName = "inetTVipTv"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Volumes/Xcode%203/inetTVipTv/inetTVipTv/CollectionViewCell.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "28"
-                  endingLineNumber = "28"
-                  offsetFromSymbolStart = "988">
-               </Location>
-               <Location
-                  uuid = "4AC7D863-46B1-4DC8-ADC4-066A68FF973C - d9a684832af854d2"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "inetTVipTv.CollectionViewCell.configure(with: Swift.String) -&gt; ()"
-                  moduleName = "inetTVipTv"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Volumes/Xcode%203/inetTVipTv/inetTVipTv/CollectionViewCell.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "30"
-                  endingLineNumber = "30"
-                  offsetFromSymbolStart = "1152">
-               </Location>
-               <Location
-                  uuid = "4AC7D863-46B1-4DC8-ADC4-066A68FF973C - d9a684832af854d2"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "inetTVipTv.CollectionViewCell.configure(with: Swift.String) -&gt; ()"
-                  moduleName = "inetTVipTv"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Volumes/Xcode%203/inetTVipTv/inetTVipTv/CollectionViewCell.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "30"
-                  endingLineNumber = "30"
-                  offsetFromSymbolStart = "1245">
-               </Location>
-               <Location
-                  uuid = "4AC7D863-46B1-4DC8-ADC4-066A68FF973C - d9a684832af85533"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "inetTVipTv.CollectionViewCell.configure(with: Swift.String) -&gt; ()"
-                  moduleName = "inetTVipTv"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Volumes/Xcode%203/inetTVipTv/inetTVipTv/CollectionViewCell.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "29"
-                  endingLineNumber = "29"
-                  offsetFromSymbolStart = "935">
-               </Location>
-               <Location
-                  uuid = "4AC7D863-46B1-4DC8-ADC4-066A68FF973C - d9a684832af85533"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "inetTVipTv.CollectionViewCell.configure(with: Swift.String) -&gt; ()"
-                  moduleName = "inetTVipTv"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Volumes/Xcode%203/inetTVipTv/inetTVipTv/CollectionViewCell.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "29"
-                  endingLineNumber = "29"
-                  offsetFromSymbolStart = "860">
-               </Location>
-            </Locations>
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            uuid = "156990F8-20FC-47FB-82EA-DDC1FC0AE51A"
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "inetTVipTv/ViewController.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "28"
-            endingLineNumber = "28"
-            landmarkName = "viewDidLoad()"
-            landmarkType = "7">
-            <Locations>
-               <Location
-                  uuid = "156990F8-20FC-47FB-82EA-DDC1FC0AE51A - 5be6495d78417684"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "inetTVipTv.ViewController.viewDidLoad() -&gt; ()"
-                  moduleName = "inetTVipTv"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Volumes/Xcode%203/inetTVipTv/inetTVipTv/ViewController.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "26"
-                  endingLineNumber = "26"
-                  offsetFromSymbolStart = "24">
-               </Location>
-               <Location
-                  uuid = "156990F8-20FC-47FB-82EA-DDC1FC0AE51A - 5be6495d78417684"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "inetTVipTv.ViewController.viewDidLoad() -&gt; ()"
-                  moduleName = "inetTVipTv"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Volumes/Xcode%203/inetTVipTv/inetTVipTv/ViewController.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "26"
-                  endingLineNumber = "26"
-                  offsetFromSymbolStart = "53">
-               </Location>
-            </Locations>
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            uuid = "6FABEF5A-A83D-4ABA-81D8-4D70EACBEDDF"
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "inetTVipTv/AnimationViewController.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "58"
-            endingLineNumber = "58"
-            landmarkName = "animate()"
-            landmarkType = "7">
-            <Locations>
-               <Location
-                  uuid = "6FABEF5A-A83D-4ABA-81D8-4D70EACBEDDF - d900c344988f6113"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "closure #1 @Swift.MainActor () -&gt; () in closure #3 (Swift.Bool) -&gt; () in inetTVipTv.AnimationViewController.animate() -&gt; ()"
-                  moduleName = "inetTVipTv"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Volumes/Xcode%203/inetTVipTv/inetTVipTv/AnimationViewController.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "57"
-                  endingLineNumber = "57"
-                  offsetFromSymbolStart = "52">
-               </Location>
-               <Location
-                  uuid = "6FABEF5A-A83D-4ABA-81D8-4D70EACBEDDF - d900c344988f6113"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "closure #1 @Swift.MainActor () -&gt; () in closure #3 (Swift.Bool) -&gt; () in inetTVipTv.AnimationViewController.animate() -&gt; ()"
-                  moduleName = "inetTVipTv"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Volumes/Xcode%203/inetTVipTv/inetTVipTv/AnimationViewController.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "57"
-                  endingLineNumber = "57"
-                  offsetFromSymbolStart = "136">
-               </Location>
-               <Location
-                  uuid = "6FABEF5A-A83D-4ABA-81D8-4D70EACBEDDF - d900c344988f6113"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "closure #1 @Swift.MainActor () -&gt; () in closure #3 (Swift.Bool) -&gt; () in inetTVipTv.AnimationViewController.animate() -&gt; ()"
-                  moduleName = "inetTVipTv"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Volumes/Xcode%203/inetTVipTv/inetTVipTv/AnimationViewController.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "57"
-                  endingLineNumber = "57"
-                  offsetFromSymbolStart = "284">
-               </Location>
-            </Locations>
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            uuid = "7EF81D28-D456-4FE6-877B-1157C696F3D2"
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "inetTVipTv/ViewController.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "30"
-            endingLineNumber = "30"
-            landmarkName = "viewDidLoad()"
-            landmarkType = "7">
-            <Locations>
-               <Location
-                  uuid = "7EF81D28-D456-4FE6-877B-1157C696F3D2 - 5be6495d7841779d"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "inetTVipTv.ViewController.viewDidLoad() -&gt; ()"
-                  moduleName = "inetTVipTv"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Volumes/Xcode%203/inetTVipTv/inetTVipTv/ViewController.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "33"
-                  endingLineNumber = "33"
-                  offsetFromSymbolStart = "605">
-               </Location>
-               <Location
-                  uuid = "7EF81D28-D456-4FE6-877B-1157C696F3D2 - 5be6495d7841779d"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "inetTVipTv.ViewController.viewDidLoad() -&gt; ()"
-                  moduleName = "inetTVipTv"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Volumes/Xcode%203/inetTVipTv/inetTVipTv/ViewController.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "33"
-                  endingLineNumber = "33"
-                  offsetFromSymbolStart = "492">
-               </Location>
-               <Location
-                  uuid = "7EF81D28-D456-4FE6-877B-1157C696F3D2 - 5be6495d78417638"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "inetTVipTv.ViewController.viewDidLoad() -&gt; ()"
-                  moduleName = "inetTVipTv"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Volumes/Xcode%203/inetTVipTv/inetTVipTv/ViewController.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "30"
-                  endingLineNumber = "30"
-                  offsetFromSymbolStart = "180">
-               </Location>
-            </Locations>
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            uuid = "48086C4D-0E04-46D2-9EEB-F339249BBC0A"
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "inetTVipTv/CollectionViewControllerChanels.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "118"
-            endingLineNumber = "118"
-            landmarkName = "IsFavorite()"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            uuid = "05040AF9-E4E5-4B25-A4DF-E1D9BD472E65"
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "inetTVipTv/SearchBarCollectionViewCell.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "18"
-            endingLineNumber = "18"
-            landmarkName = "configureSearch(with:)"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            uuid = "D3D2161B-C387-4BF1-8E4F-92C3255A2671"
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "inetTVipTv/CollectionViewControllerChanels.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "92"
-            endingLineNumber = "92"
-            landmarkName = "collectionView(_:didSelectItemAt:)"
-            landmarkType = "7">
-            <Locations>
-               <Location
-                  uuid = "D3D2161B-C387-4BF1-8E4F-92C3255A2671 - 8ea94fb48ae48bd3"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "inetTVipTv.CollectionViewControllerChanels.collectionView(_: __C.UICollectionView, didSelectItemAt: Foundation.IndexPath) -&gt; ()"
-                  moduleName = "inetTVipTv"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Volumes/Xcode%203/inetTVipTv/inetTVipTv/CollectionViewControllerChanels.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "89"
-                  endingLineNumber = "89"
-                  offsetFromSymbolStart = "392">
-               </Location>
-               <Location
-                  uuid = "D3D2161B-C387-4BF1-8E4F-92C3255A2671 - 8ea94fb48ae48bd3"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "inetTVipTv.CollectionViewControllerChanels.collectionView(_: __C.UICollectionView, didSelectItemAt: Foundation.IndexPath) -&gt; ()"
-                  moduleName = "inetTVipTv"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Volumes/Xcode%203/inetTVipTv/inetTVipTv/CollectionViewControllerChanels.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "89"
-                  endingLineNumber = "89"
-                  offsetFromSymbolStart = "241">
-               </Location>
-            </Locations>
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            uuid = "65DF8A28-5B5C-41F2-9272-F882C373DE78"
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "inetTVipTv/CollectionViewControllerChanels.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "55"
-            endingLineNumber = "55"
-            landmarkName = "CollectionViewControllerChanels"
-            landmarkType = "3">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            uuid = "5C9C13CC-E23B-49E2-AD09-79782EA0B5F9"
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "inetTVipTv/CollectionViewControllerChanels.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "132"
-            endingLineNumber = "132"
-            landmarkName = "updateSearchResults(for:)"
-            landmarkType = "7">
-            <Locations>
-               <Location
-                  uuid = "5C9C13CC-E23B-49E2-AD09-79782EA0B5F9 - a4b86b136bc2eae"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "inetTVipTv.CollectionViewControllerChanels.updateSearchResults(for: __C.UISearchController) -&gt; ()"
-                  moduleName = "inetTVipTv"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Volumes/Xcode%203/inetTVipTv/inetTVipTv/CollectionViewControllerChanels.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "135"
-                  endingLineNumber = "135"
-                  offsetFromSymbolStart = "62">
-               </Location>
-               <Location
-                  uuid = "5C9C13CC-E23B-49E2-AD09-79782EA0B5F9 - a4b86b136bc2eae"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "inetTVipTv.CollectionViewControllerChanels.updateSearchResults(for: __C.UISearchController) -&gt; ()"
-                  moduleName = "inetTVipTv"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Volumes/Xcode%203/inetTVipTv/inetTVipTv/CollectionViewControllerChanels.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "135"
-                  endingLineNumber = "135"
-                  offsetFromSymbolStart = "144">
-               </Location>
-            </Locations>
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            uuid = "4F452436-A39F-4718-85A4-56096EB43126"
+            uuid = "41989450-657E-4208-8D30-BD1EDEEBBEAD"
             shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "inetTVipTv/CollectionViewController.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "51"
-            endingLineNumber = "51"
-            landmarkName = "collectionView(_:cellForItemAt:)"
-            landmarkType = "7">
-            <Locations>
-               <Location
-                  uuid = "4F452436-A39F-4718-85A4-56096EB43126 - 99b46cbe2ba34f16"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "inetTVipTv.CollectionViewController.collectionView(_: __C.UICollectionView, cellForItemAt: Foundation.IndexPath) -&gt; __C.UICollectionViewCell"
-                  moduleName = "inetTVipTv"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Volumes/Xcode%203/inetTVipTv/inetTVipTv/CollectionViewController.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "51"
-                  endingLineNumber = "51"
-                  offsetFromSymbolStart = "146">
-               </Location>
-               <Location
-                  uuid = "4F452436-A39F-4718-85A4-56096EB43126 - 99b46cbe2ba34f16"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "inetTVipTv.CollectionViewController.collectionView(_: __C.UICollectionView, cellForItemAt: Foundation.IndexPath) -&gt; __C.UICollectionViewCell"
-                  moduleName = "inetTVipTv"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Volumes/Xcode%203/inetTVipTv/inetTVipTv/CollectionViewController.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "51"
-                  endingLineNumber = "51"
-                  offsetFromSymbolStart = "692">
-               </Location>
-               <Location
-                  uuid = "4F452436-A39F-4718-85A4-56096EB43126 - 99b46cbe2ba34f16"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "inetTVipTv.CollectionViewController.collectionView(_: __C.UICollectionView, cellForItemAt: Foundation.IndexPath) -&gt; __C.UICollectionViewCell"
-                  moduleName = "inetTVipTv"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Volumes/Xcode%203/inetTVipTv/inetTVipTv/CollectionViewController.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "51"
-                  endingLineNumber = "51"
-                  offsetFromSymbolStart = "711">
-               </Location>
-            </Locations>
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            uuid = "ADAFD9E4-3D2B-47E9-B29D-B257920EFF46"
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "inetTVipTv/CollectionViewControllerChanels.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "80"
-            endingLineNumber = "80"
-            landmarkName = "collectionView(_:cellForItemAt:)"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            uuid = "E1636A4A-4D6C-41DB-970C-32934AB2794D"
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "inetTVipTv/CollectionViewControllerChanels.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "100"
-            endingLineNumber = "100"
+            startingLineNumber = "53"
+            endingLineNumber = "53"
             landmarkName = "collectionView(_:didSelectItemAt:)"
             landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "FFD59298-E64F-41E4-9878-19AD4BE2EB52"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "inetTVipTv/MtriUfileHandle.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "234"
+            endingLineNumber = "234"
+            landmarkName = "notVipDriveList()"
+            landmarkType = "7">
             <Locations>
                <Location
-                  uuid = "E1636A4A-4D6C-41DB-970C-32934AB2794D - 8ea94fb48ae48d05"
+                  uuid = "FFD59298-E64F-41E4-9878-19AD4BE2EB52 - dac8e00740b17ec1"
                   shouldBeEnabled = "Yes"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
-                  symbolName = "inetTVipTv.CollectionViewControllerChanels.collectionView(_: __C.UICollectionView, didSelectItemAt: Foundation.IndexPath) -&gt; ()"
+                  symbolName = "inetTVipTv.MtriUfileHandle.notVipDriveList() -&gt; ()"
                   moduleName = "inetTVipTv"
                   usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Volumes/Xcode%203/inetTVipTv/inetTVipTv/CollectionViewControllerChanels.swift"
+                  urlString = "file:///Volumes/Xcode%203/inetTVipTv/inetTVipTv/MtriUfileHandle.swift"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "99"
-                  endingLineNumber = "99"
-                  offsetFromSymbolStart = "1012">
+                  startingLineNumber = "187"
+                  endingLineNumber = "187"
+                  offsetFromSymbolStart = "953">
                </Location>
                <Location
-                  uuid = "E1636A4A-4D6C-41DB-970C-32934AB2794D - 8ea94fb48ae48d05"
+                  uuid = "FFD59298-E64F-41E4-9878-19AD4BE2EB52 - dac8e00740b17ec1"
                   shouldBeEnabled = "Yes"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
-                  symbolName = "inetTVipTv.CollectionViewControllerChanels.collectionView(_: __C.UICollectionView, didSelectItemAt: Foundation.IndexPath) -&gt; ()"
+                  symbolName = "inetTVipTv.MtriUfileHandle.notVipDriveList() -&gt; ()"
                   moduleName = "inetTVipTv"
                   usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Volumes/Xcode%203/inetTVipTv/inetTVipTv/CollectionViewControllerChanels.swift"
+                  urlString = "file:///Volumes/Xcode%203/inetTVipTv/inetTVipTv/MtriUfileHandle.swift"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "99"
-                  endingLineNumber = "99"
-                  offsetFromSymbolStart = "1028">
+                  startingLineNumber = "187"
+                  endingLineNumber = "187"
+                  offsetFromSymbolStart = "946">
                </Location>
             </Locations>
          </BreakpointContent>
@@ -844,80 +71,227 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            uuid = "A21A4D7F-24BC-4AA6-8D72-7F487D4BF483"
+            uuid = "2E010161-B351-4583-ABB3-03AF8C72BC12"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "inetTVipTv/MtriUfileHandle.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "260"
+            endingLineNumber = "260"
+            landmarkName = "getCategory(findInString:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "4B6E4CEA-D995-479D-8172-F1CFC9552AFC"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "inetTVipTv/MtriUfileHandle.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "165"
+            endingLineNumber = "165"
+            landmarkName = "getChanel(getByCategory:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "14A969B1-8C4B-47F1-A063-4641CEA8FBF1"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "inetTVipTv/MtriUfileHandle.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "213"
+            endingLineNumber = "213"
+            landmarkName = "getChanel(getByCategory:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "14A969B1-8C4B-47F1-A063-4641CEA8FBF1 - b5db597962e5fbe9"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "inetTVipTv.MtriUfileHandle.getChanel(getByCategory: Swift.String) -&gt; Swift.Int"
+                  moduleName = "inetTVipTv"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Volumes/Xcode%203/inetTVipTv/inetTVipTv/MtriUfileHandle.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "166"
+                  endingLineNumber = "166"
+                  offsetFromSymbolStart = "4356">
+               </Location>
+               <Location
+                  uuid = "14A969B1-8C4B-47F1-A063-4641CEA8FBF1 - b5db597962e5fbe9"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "inetTVipTv.MtriUfileHandle.getChanel(getByCategory: Swift.String) -&gt; Swift.Int"
+                  moduleName = "inetTVipTv"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Volumes/Xcode%203/inetTVipTv/inetTVipTv/MtriUfileHandle.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "166"
+                  endingLineNumber = "166"
+                  offsetFromSymbolStart = "3468">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "7CA82045-B52F-44DC-A2C4-2871877A2C8E"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "inetTVipTv/MtriUfileHandle.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "62"
+            endingLineNumber = "62"
+            landmarkName = "ReadFileFromMemory()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "7CA82045-B52F-44DC-A2C4-2871877A2C8E - 8ec8ad39063f8d36"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "inetTVipTv.MtriUfileHandle.ReadFileFromMemory() -&gt; ()"
+                  moduleName = "inetTVipTv"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Volumes/Xcode%203/inetTVipTv/inetTVipTv/MtriUfileHandle.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "62"
+                  endingLineNumber = "62"
+                  offsetFromSymbolStart = "5028">
+               </Location>
+               <Location
+                  uuid = "7CA82045-B52F-44DC-A2C4-2871877A2C8E - 8ec8ad39063f8d36"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "inetTVipTv.MtriUfileHandle.ReadFileFromMemory() -&gt; ()"
+                  moduleName = "inetTVipTv"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Volumes/Xcode%203/inetTVipTv/inetTVipTv/MtriUfileHandle.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "62"
+                  endingLineNumber = "62"
+                  offsetFromSymbolStart = "4084">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "47F5D544-2826-4E4B-9914-7FE807D0C054"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "inetTVipTv/MtriUfileHandle.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "203"
+            endingLineNumber = "203"
+            landmarkName = "getChanel(getByCategory:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "2BDFDA34-B58A-46B3-A45D-3B6E393098FE"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "inetTVipTv/MtriUfileHandle.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "327"
+            endingLineNumber = "327"
+            landmarkName = "getChannelNameByArray(findInString:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "2BDFDA34-B58A-46B3-A45D-3B6E393098FE - ad635c6ccc103653"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "inetTVipTv.MtriUfileHandle.getChannelNameByArray(findInString: Swift.Array&lt;Swift.String&gt;) -&gt; ()"
+                  moduleName = "inetTVipTv"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Volumes/Xcode%203/inetTVipTv/inetTVipTv/MtriUfileHandle.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "287"
+                  endingLineNumber = "287"
+                  offsetFromSymbolStart = "1033">
+               </Location>
+               <Location
+                  uuid = "2BDFDA34-B58A-46B3-A45D-3B6E393098FE - ad635c6ccc103653"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "inetTVipTv.MtriUfileHandle.getChannelNameByArray(findInString: Swift.Array&lt;Swift.String&gt;) -&gt; ()"
+                  moduleName = "inetTVipTv"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Volumes/Xcode%203/inetTVipTv/inetTVipTv/MtriUfileHandle.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "287"
+                  endingLineNumber = "287"
+                  offsetFromSymbolStart = "993">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "1A34357C-1E8B-471C-B7EA-015D3D9ED80D"
             shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "inetTVipTv/CollectionViewControllerChanels.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "27"
-            endingLineNumber = "27"
+            startingLineNumber = "15"
+            endingLineNumber = "15"
             landmarkName = "CollectionViewControllerChanels"
             landmarkType = "3">
             <Locations>
                <Location
-                  uuid = "A21A4D7F-24BC-4AA6-8D72-7F487D4BF483 - 6d10505bc35da86e"
+                  uuid = "1A34357C-1E8B-471C-B7EA-015D3D9ED80D - be9967b03763ee97"
                   shouldBeEnabled = "Yes"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
-                  symbolName = "inetTVipTv.CollectionViewControllerChanels.lastChannel.getter : Swift.String"
+                  symbolName = "inetTVipTv.CollectionViewControllerChanels.__allocating_init(collectionViewLayout: __C.UICollectionViewLayout) -&gt; inetTVipTv.CollectionViewControllerChanels"
                   moduleName = "inetTVipTv"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Volumes/Xcode%203/inetTVipTv/inetTVipTv/CollectionViewControllerChanels.swift"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "27"
-                  endingLineNumber = "27"
-                  offsetFromSymbolStart = "103">
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "20">
                </Location>
                <Location
-                  uuid = "A21A4D7F-24BC-4AA6-8D72-7F487D4BF483 - 2f556effcb73f862"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "inetTVipTv.CollectionViewControllerChanels.lastChannel.setter : Swift.String"
-                  moduleName = "inetTVipTv"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Volumes/Xcode%203/inetTVipTv/inetTVipTv/CollectionViewControllerChanels.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "27"
-                  endingLineNumber = "27"
-                  offsetFromSymbolStart = "139">
-               </Location>
-               <Location
-                  uuid = "A21A4D7F-24BC-4AA6-8D72-7F487D4BF483 - 843bfdc9ca8acc93"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "inetTVipTv.CollectionViewControllerChanels.lastChannel.modify : Swift.String"
-                  moduleName = "inetTVipTv"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Volumes/Xcode%203/inetTVipTv/inetTVipTv/CollectionViewControllerChanels.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "27"
-                  endingLineNumber = "27"
-                  offsetFromSymbolStart = "0">
-               </Location>
-               <Location
-                  uuid = "A21A4D7F-24BC-4AA6-8D72-7F487D4BF483 - c21a2e72253ec8fa"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "inetTVipTv.CollectionViewControllerChanels.lastChannel.modify : Swift.String with unmangled suffix &quot;.resume.0&quot;"
-                  moduleName = "inetTVipTv"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Volumes/Xcode%203/inetTVipTv/inetTVipTv/CollectionViewControllerChanels.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "27"
-                  endingLineNumber = "27"
-                  offsetFromSymbolStart = "15">
-               </Location>
-               <Location
-                  uuid = "A21A4D7F-24BC-4AA6-8D72-7F487D4BF483 - 130dff48eaa5ed0f"
+                  uuid = "1A34357C-1E8B-471C-B7EA-015D3D9ED80D - 130dff48eaa5ee79"
                   shouldBeEnabled = "Yes"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
@@ -927,12 +301,27 @@
                   urlString = "file:///Volumes/Xcode%203/inetTVipTv/inetTVipTv/CollectionViewControllerChanels.swift"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "27"
-                  endingLineNumber = "27"
-                  offsetFromSymbolStart = "901">
+                  startingLineNumber = "17"
+                  endingLineNumber = "17"
+                  offsetFromSymbolStart = "172">
                </Location>
                <Location
-                  uuid = "A21A4D7F-24BC-4AA6-8D72-7F487D4BF483 - d0181258e6a33786"
+                  uuid = "1A34357C-1E8B-471C-B7EA-015D3D9ED80D - baa0df508d10b0a8"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "inetTVipTv.CollectionViewControllerChanels.__allocating_init(nibName: Swift.Optional&lt;Swift.String&gt;, bundle: Swift.Optional&lt;__C.NSBundle&gt;) -&gt; inetTVipTv.CollectionViewControllerChanels"
+                  moduleName = "inetTVipTv"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Volumes/Xcode%203/inetTVipTv/inetTVipTv/CollectionViewControllerChanels.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "28">
+               </Location>
+               <Location
+                  uuid = "1A34357C-1E8B-471C-B7EA-015D3D9ED80D - d0181258e6a334f0"
                   shouldBeEnabled = "Yes"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
@@ -942,12 +331,27 @@
                   urlString = "file:///Volumes/Xcode%203/inetTVipTv/inetTVipTv/CollectionViewControllerChanels.swift"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "27"
-                  endingLineNumber = "27"
-                  offsetFromSymbolStart = "875">
+                  startingLineNumber = "17"
+                  endingLineNumber = "17"
+                  offsetFromSymbolStart = "196">
                </Location>
                <Location
-                  uuid = "A21A4D7F-24BC-4AA6-8D72-7F487D4BF483 - 19d8e332153a96cd"
+                  uuid = "1A34357C-1E8B-471C-B7EA-015D3D9ED80D - b11371cf3826db07"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "inetTVipTv.CollectionViewControllerChanels.__allocating_init(coder: __C.NSCoder) -&gt; Swift.Optional&lt;inetTVipTv.CollectionViewControllerChanels&gt;"
+                  moduleName = "inetTVipTv"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Volumes/Xcode%203/inetTVipTv/inetTVipTv/CollectionViewControllerChanels.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "20">
+               </Location>
+               <Location
+                  uuid = "1A34357C-1E8B-471C-B7EA-015D3D9ED80D - 19d8e332153a95bb"
                   shouldBeEnabled = "Yes"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
@@ -957,9 +361,24 @@
                   urlString = "file:///Volumes/Xcode%203/inetTVipTv/inetTVipTv/CollectionViewControllerChanels.swift"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "27"
-                  endingLineNumber = "27"
-                  offsetFromSymbolStart = "817">
+                  startingLineNumber = "17"
+                  endingLineNumber = "17"
+                  offsetFromSymbolStart = "172">
+               </Location>
+               <Location
+                  uuid = "1A34357C-1E8B-471C-B7EA-015D3D9ED80D - 76c1f22660f15b2f"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "inetTVipTv.CollectionViewControllerChanels.__deallocating_deinit"
+                  moduleName = "inetTVipTv"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Volumes/Xcode%203/inetTVipTv/inetTVipTv/CollectionViewControllerChanels.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "16">
                </Location>
             </Locations>
          </BreakpointContent>
@@ -967,47 +386,122 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            uuid = "98C73EED-C2AA-4E71-B4C7-5CE03BB6B21B"
+            uuid = "5671EE73-6C61-431A-9F20-3B14DCB06C4A"
             shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "inetTVipTv/CollectionViewCellChanel.swift"
+            filePath = "inetTVipTv/CollectionViewControllerChanels.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "44"
-            endingLineNumber = "44"
-            landmarkName = "configureChanel(with:value:isFavorite:chanelCounter:last:)"
-            landmarkType = "7">
+            startingLineNumber = "30"
+            endingLineNumber = "30"
+            landmarkName = "CollectionViewControllerChanels"
+            landmarkType = "3">
             <Locations>
                <Location
-                  uuid = "98C73EED-C2AA-4E71-B4C7-5CE03BB6B21B - 6004359ee73e570f"
+                  uuid = "5671EE73-6C61-431A-9F20-3B14DCB06C4A - 6d10505bc35db5e9"
                   shouldBeEnabled = "Yes"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
-                  symbolName = "inetTVipTv.CollectionViewCellChanel.configureChanel(with: Swift.String, value: Swift.String, isFavorite: Swift.Bool, chanelCounter: Swift.Int, last: Swift.String) -&gt; ()"
+                  symbolName = "inetTVipTv.CollectionViewControllerChanels.lastChannel.getter : Swift.String"
                   moduleName = "inetTVipTv"
                   usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Volumes/Xcode%203/inetTVipTv/inetTVipTv/CollectionViewCellChanel.swift"
+                  urlString = "file:///Volumes/Xcode%203/inetTVipTv/inetTVipTv/CollectionViewControllerChanels.swift"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "44"
-                  endingLineNumber = "44"
-                  offsetFromSymbolStart = "1304">
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "16">
                </Location>
                <Location
-                  uuid = "98C73EED-C2AA-4E71-B4C7-5CE03BB6B21B - 6004359ee73e570f"
+                  uuid = "5671EE73-6C61-431A-9F20-3B14DCB06C4A - 2f556effcb73f9c7"
                   shouldBeEnabled = "Yes"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
-                  symbolName = "inetTVipTv.CollectionViewCellChanel.configureChanel(with: Swift.String, value: Swift.String, isFavorite: Swift.Bool, chanelCounter: Swift.Int, last: Swift.String) -&gt; ()"
+                  symbolName = "inetTVipTv.CollectionViewControllerChanels.lastChannel.setter : Swift.String"
                   moduleName = "inetTVipTv"
                   usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Volumes/Xcode%203/inetTVipTv/inetTVipTv/CollectionViewCellChanel.swift"
+                  urlString = "file:///Volumes/Xcode%203/inetTVipTv/inetTVipTv/CollectionViewControllerChanels.swift"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "44"
-                  endingLineNumber = "44"
-                  offsetFromSymbolStart = "1208">
+                  startingLineNumber = "30"
+                  endingLineNumber = "30"
+                  offsetFromSymbolStart = "0">
+               </Location>
+               <Location
+                  uuid = "5671EE73-6C61-431A-9F20-3B14DCB06C4A - 843bfdc9ca8acd36"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "inetTVipTv.CollectionViewControllerChanels.lastChannel.modify : Swift.String"
+                  moduleName = "inetTVipTv"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Volumes/Xcode%203/inetTVipTv/inetTVipTv/CollectionViewControllerChanels.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "30"
+                  endingLineNumber = "30"
+                  offsetFromSymbolStart = "0">
+               </Location>
+               <Location
+                  uuid = "5671EE73-6C61-431A-9F20-3B14DCB06C4A - 4cb41e90bab4d66"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "inetTVipTv.CollectionViewControllerChanels.lastChannel.modify : Swift.String with unmangled suffix &quot;.resume.0&quot;"
+                  moduleName = "inetTVipTv"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Volumes/Xcode%203/inetTVipTv/%3Ccompiler-generated%3E"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "16">
+               </Location>
+               <Location
+                  uuid = "5671EE73-6C61-431A-9F20-3B14DCB06C4A - 130dff48eaa5ecaa"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "inetTVipTv.CollectionViewControllerChanels.init(collectionViewLayout: __C.UICollectionViewLayout) -&gt; inetTVipTv.CollectionViewControllerChanels"
+                  moduleName = "inetTVipTv"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Volumes/Xcode%203/inetTVipTv/inetTVipTv/CollectionViewControllerChanels.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "30"
+                  endingLineNumber = "30"
+                  offsetFromSymbolStart = "908">
+               </Location>
+               <Location
+                  uuid = "5671EE73-6C61-431A-9F20-3B14DCB06C4A - d0181258e6a33623"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "inetTVipTv.CollectionViewControllerChanels.init(nibName: Swift.Optional&lt;Swift.String&gt;, bundle: Swift.Optional&lt;__C.NSBundle&gt;) -&gt; inetTVipTv.CollectionViewControllerChanels"
+                  moduleName = "inetTVipTv"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Volumes/Xcode%203/inetTVipTv/inetTVipTv/CollectionViewControllerChanels.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "30"
+                  endingLineNumber = "30"
+                  offsetFromSymbolStart = "932">
+               </Location>
+               <Location
+                  uuid = "5671EE73-6C61-431A-9F20-3B14DCB06C4A - 19d8e332153a9768"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "inetTVipTv.CollectionViewControllerChanels.init(coder: __C.NSCoder) -&gt; Swift.Optional&lt;inetTVipTv.CollectionViewControllerChanels&gt;"
+                  moduleName = "inetTVipTv"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Volumes/Xcode%203/inetTVipTv/inetTVipTv/CollectionViewControllerChanels.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "30"
+                  endingLineNumber = "30"
+                  offsetFromSymbolStart = "908">
                </Location>
             </Locations>
          </BreakpointContent>
@@ -1015,62 +509,412 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            uuid = "3D6FA999-8CB0-438E-8912-654453940285"
+            uuid = "78892939-3806-46EC-BA63-EB5AB8B36E25"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "inetTVipTv/VideoPlayerManager.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "275"
+            endingLineNumber = "275"
+            landmarkName = "handleTap(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "B6CB64A8-930D-47D1-9A5A-40F651A99EAA"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "inetTVipTv/VideoPlayerManager.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "273"
+            endingLineNumber = "273"
+            landmarkName = "handleTap(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "A394E0D6-914E-4346-B914-53CE9723929D"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "inetTVipTv/CollectionViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "17"
+            endingLineNumber = "17"
+            landmarkName = "CollectionViewController"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  uuid = "A394E0D6-914E-4346-B914-53CE9723929D - 26b08043d887bee1"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "inetTVipTv.CollectionViewController.favoriteFile.getter : inetTVipTv.FavoriteList"
+                  moduleName = "inetTVipTv"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Volumes/Xcode%203/inetTVipTv/inetTVipTv/CollectionViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "16">
+               </Location>
+               <Location
+                  uuid = "A394E0D6-914E-4346-B914-53CE9723929D - 3b17b271a94f821f"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "inetTVipTv.CollectionViewController.init(collectionViewLayout: __C.UICollectionViewLayout) -&gt; inetTVipTv.CollectionViewController"
+                  moduleName = "inetTVipTv"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Volumes/Xcode%203/inetTVipTv/inetTVipTv/CollectionViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "17"
+                  endingLineNumber = "17"
+                  offsetFromSymbolStart = "260">
+               </Location>
+               <Location
+                  uuid = "A394E0D6-914E-4346-B914-53CE9723929D - cde5db6e433e14c0"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "inetTVipTv.CollectionViewController.init(nibName: Swift.Optional&lt;Swift.String&gt;, bundle: Swift.Optional&lt;__C.NSBundle&gt;) -&gt; inetTVipTv.CollectionViewController"
+                  moduleName = "inetTVipTv"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Volumes/Xcode%203/inetTVipTv/inetTVipTv/CollectionViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "17"
+                  endingLineNumber = "17"
+                  offsetFromSymbolStart = "284">
+               </Location>
+               <Location
+                  uuid = "A394E0D6-914E-4346-B914-53CE9723929D - dc922ce11e88258d"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "inetTVipTv.CollectionViewController.init(coder: __C.NSCoder) -&gt; Swift.Optional&lt;inetTVipTv.CollectionViewController&gt;"
+                  moduleName = "inetTVipTv"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Volumes/Xcode%203/inetTVipTv/inetTVipTv/CollectionViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "17"
+                  endingLineNumber = "17"
+                  offsetFromSymbolStart = "260">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "B133FE2D-7D83-49FC-B1E8-6349AB38D418"
             shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "inetTVipTv/MtriUfileHandle.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "80"
-            endingLineNumber = "80"
-            landmarkName = "chekIfFileInMemory()"
+            startingLineNumber = "26"
+            endingLineNumber = "26"
+            landmarkName = "ReadFileFromMemory()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "C19AA80E-6920-4047-AF3A-0A78D65411BB"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "inetTVipTv/ViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "32"
+            endingLineNumber = "32"
+            landmarkName = "viewDidLoad()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "6BC6E111-F038-407D-ADF9-54D5EC43195C"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "inetTVipTv/FavoretList.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "25"
+            endingLineNumber = "25"
+            landmarkName = "FavoriteChanelFile(channel:chanelUrl:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "2F752373-B07A-456D-B9C5-7A36BDB0647D"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "inetTVipTv/MtriUfileHandle.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "43"
+            endingLineNumber = "43"
+            landmarkName = "ReadFileFromMemory()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "C79CEA0D-AE99-4A7A-A239-449180F578F7"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "inetTVipTv/MtriUfileHandle.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "46"
+            endingLineNumber = "46"
+            landmarkName = "ReadFileFromMemory()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "7F4A8DE6-F7B8-47EF-9BB9-3395DB990C28"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "inetTVipTv/MtriUfileHandle.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "64"
+            endingLineNumber = "64"
+            landmarkName = "ReadFileFromMemory()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "E46B5238-405A-4DEC-9782-30045A65A2A0"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "inetTVipTv/MtriUfileHandle.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "73"
+            endingLineNumber = "73"
+            landmarkName = "ReadFileFromMemory()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "43F86DAA-C5A1-4F13-8E2F-362897E2001B"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "inetTVipTv/MtriUfileHandle.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "162"
+            endingLineNumber = "162"
+            landmarkName = "getAllChanells()"
             landmarkType = "7">
             <Locations>
                <Location
-                  uuid = "3D6FA999-8CB0-438E-8912-654453940285 - 80dbbeb1d0dd30dd"
+                  uuid = "43F86DAA-C5A1-4F13-8E2F-362897E2001B - 8b694fc86378f3a1"
                   shouldBeEnabled = "Yes"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
-                  symbolName = "inetTVipTv.MtriUfileHandle.DownlondFromUrl(myFileURL: Swift.String) -&gt; ()"
+                  symbolName = "inetTVipTv.MtriUfileHandle.getAllChanells() -&gt; Swift.Int"
                   moduleName = "inetTVipTv"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Volumes/Xcode%203/inetTVipTv/inetTVipTv/MtriUfileHandle.swift"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "85"
-                  endingLineNumber = "85"
-                  offsetFromSymbolStart = "367">
+                  startingLineNumber = "163"
+                  endingLineNumber = "163"
+                  offsetFromSymbolStart = "3292">
                </Location>
                <Location
-                  uuid = "3D6FA999-8CB0-438E-8912-654453940285 - 2c46f1618ee83d92"
+                  uuid = "43F86DAA-C5A1-4F13-8E2F-362897E2001B - 8b694fc86378f3a1"
                   shouldBeEnabled = "Yes"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
-                  symbolName = "inetTVipTv.MtriUfileHandle.chekIfFileInMemory() -&gt; Swift.Bool"
+                  symbolName = "inetTVipTv.MtriUfileHandle.getAllChanells() -&gt; Swift.Int"
                   moduleName = "inetTVipTv"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Volumes/Xcode%203/inetTVipTv/inetTVipTv/MtriUfileHandle.swift"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "83"
-                  endingLineNumber = "83"
-                  offsetFromSymbolStart = "197">
+                  startingLineNumber = "163"
+                  endingLineNumber = "163"
+                  offsetFromSymbolStart = "3272">
                </Location>
                <Location
-                  uuid = "3D6FA999-8CB0-438E-8912-654453940285 - 2c46f1618ee83d54"
+                  uuid = "43F86DAA-C5A1-4F13-8E2F-362897E2001B - 8b694fc86378f3a1"
                   shouldBeEnabled = "Yes"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
-                  symbolName = "inetTVipTv.MtriUfileHandle.chekIfFileInMemory() -&gt; Swift.Bool"
+                  symbolName = "inetTVipTv.MtriUfileHandle.getAllChanells() -&gt; Swift.Int"
                   moduleName = "inetTVipTv"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Volumes/Xcode%203/inetTVipTv/inetTVipTv/MtriUfileHandle.swift"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "81"
-                  endingLineNumber = "81"
-                  offsetFromSymbolStart = "197">
+                  startingLineNumber = "163"
+                  endingLineNumber = "163"
+                  offsetFromSymbolStart = "3236">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "5F3FC700-D8E1-4DE2-9A45-C6B18E32BF81"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "inetTVipTv/CollectionViewControllerChanels.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "43"
+            endingLineNumber = "43"
+            landmarkName = "viewDidLoad()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "5F3FC700-D8E1-4DE2-9A45-C6B18E32BF81 - 2e1b627a1ab09147"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "inetTVipTv.CollectionViewControllerChanels.viewDidLoad() -&gt; ()"
+                  moduleName = "inetTVipTv"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Volumes/Xcode%203/inetTVipTv/inetTVipTv/CollectionViewControllerChanels.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "43"
+                  endingLineNumber = "43"
+                  offsetFromSymbolStart = "968">
+               </Location>
+               <Location
+                  uuid = "5F3FC700-D8E1-4DE2-9A45-C6B18E32BF81 - 2e1b627a1ab09147"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "inetTVipTv.CollectionViewControllerChanels.viewDidLoad() -&gt; ()"
+                  moduleName = "inetTVipTv"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Volumes/Xcode%203/inetTVipTv/inetTVipTv/CollectionViewControllerChanels.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "43"
+                  endingLineNumber = "43"
+                  offsetFromSymbolStart = "784">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "7A1C87B2-986E-4145-849F-BAE18A97DF03"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "inetTVipTv/CollectionViewControllerChanels.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "57"
+            endingLineNumber = "57"
+            landmarkName = "viewDidLoad()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "06990B19-FA74-4E9B-A2B0-DB26B5498A1F"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "inetTVipTv/CollectionViewControllerChanels.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "54"
+            endingLineNumber = "54"
+            landmarkName = "viewDidLoad()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "F7569D93-ED4A-4461-A5EB-A16F0744C3C1"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "inetTVipTv/CollectionViewCell.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "37"
+            endingLineNumber = "37"
+            landmarkName = "configure(with:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "F7569D93-ED4A-4461-A5EB-A16F0744C3C1 - d9a684832af857cb"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "inetTVipTv.CollectionViewCell.configure(with: Swift.String) -&gt; ()"
+                  moduleName = "inetTVipTv"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Volumes/Xcode%203/inetTVipTv/inetTVipTv/CollectionViewCell.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "37"
+                  endingLineNumber = "37"
+                  offsetFromSymbolStart = "1464">
+               </Location>
+               <Location
+                  uuid = "F7569D93-ED4A-4461-A5EB-A16F0744C3C1 - d9a684832af857ea"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "inetTVipTv.CollectionViewCell.configure(with: Swift.String) -&gt; ()"
+                  moduleName = "inetTVipTv"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Volumes/Xcode%203/inetTVipTv/inetTVipTv/CollectionViewCell.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "38"
+                  endingLineNumber = "38"
+                  offsetFromSymbolStart = "1460">
                </Location>
             </Locations>
          </BreakpointContent>

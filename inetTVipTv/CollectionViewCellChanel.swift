@@ -7,6 +7,8 @@
 
 import UIKit
 
+
+
 class CollectionViewCellChanel: UICollectionViewCell {
     
     @IBOutlet weak var cell: UIView!
@@ -21,10 +23,8 @@ class CollectionViewCellChanel: UICollectionViewCell {
     var channelsTocheck: Array<(String,String,String)> = Array()
     var channelsToDelte: Array<(String,String,String)> = Array()
     var myChanellNow = ""
-    
-
-    
     var chanelcount = 0
+    
     
     func configureChanel(with chanelName: String, value: String, isFavorite: Bool = false, chanelCounter: Int, last: String)
     {
@@ -41,13 +41,10 @@ class CollectionViewCellChanel: UICollectionViewCell {
         }
         
         if chanelName == last {
-            print(last)
             cell.backgroundColor = .systemCyan
         }else{
             cell.backgroundColor = .systemBackground
-
         }
-        
             ChanelUrl = value
             PlayChannel.text = chanelName
         }
@@ -57,24 +54,18 @@ class CollectionViewCellChanel: UICollectionViewCell {
 
     @IBAction func ButtonClicked(_ sender: Any) {
         
-        if(like == false)
-        {
+        if(like == false){
             favoritList.appendToFile(channel: PlayChannel.text!, chanelUrl: ChanelUrl)
-//            favoritList.ReadFileToFavorite()
             LikeButton.setImage(UIImage(systemName: "heart.fill"), for: .normal)
             like = true
-        }else
-        {
+        }else{
             channelsToDelte = favoritList.ReadFileToFavorite()
             LikeButton.setImage(UIImage(systemName: "heart"), for: .normal)
             favoritList.deleteFileFromMemory()
             favoritList.CreateNewFile()
             channelsToDelte.forEach { (Chanel, urli, bool) in
-                if Chanel != myChanellNow
-                    
-                {
+                if Chanel != myChanellNow{
                     favoritList.appendToFile(channel: Chanel, chanelUrl: urli)
-//                    favoritList.ReadFileToFavorite()
                 }
             }
             like = false

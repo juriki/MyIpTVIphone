@@ -28,13 +28,7 @@ class CollectionViewController: UICollectionViewController, UICollectionViewDele
         super.viewDidLoad()
     }
 
-//    
-//    func updateMyView(){
-//        collectionView.reloadData()
-//        viewWillAppear(true)
-//    }
-//    
-//    
+
     
     override func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
         return dataToDeleteAfgerTest.count
@@ -53,17 +47,12 @@ class CollectionViewController: UICollectionViewController, UICollectionViewDele
     
     
     override func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
-//        print(dataToDeleteAfgerTest[indexPath.row])
-
-            let vc = self.storyboard?.instantiateViewController(withIdentifier: "CollectionViewControllerChanels") as! CollectionViewControllerChanels
-            vc.myChanelCategory = dataToDeleteAfgerTest[indexPath.row]
-            self.navigationController?.pushViewController(vc, animated: true)
+        print(dataToDeleteAfgerTest[indexPath.row])
+        
+        let vc = self.storyboard?.instantiateViewController(withIdentifier: "CollectionViewControllerChanels") as! CollectionViewControllerChanels
+        vc.myChanelCategory = dataToDeleteAfgerTest[indexPath.row]
+        self.navigationController?.pushViewController(vc, animated: true)
     }
     
-//
-//    @IBAction func test(_ sender: Any) {
-//        print("Hello")
-//        collectionView.reloadData()
-//    }
-    
 }
+
